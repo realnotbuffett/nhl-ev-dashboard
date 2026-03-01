@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NHL EV Bot — Dashboard</title>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg-primary: #06090f;
+    --bg-card: #0d1117;
+    --bg-card-hover: #131921;
+    --bg-inset: #0a0e15;
+    --border: #1b2332;
+    --border-bright: #253045;
+    --text-primary: #e2e8f0;
+    --text-secondary: #8892a4;
+    --text-dim: #4a5568;
+    --green: #22c55e;
+    --green-dim: #15803d;
+    --green-bg: rgba(34,197,94,0.08);
+    --red: #ef4444;
+    --red-dim: #991b1b;
+    --red-bg: rgba(239,68,68,0.08);
+    --amber: #f59e0b;
+    --amber-bg: rgba(245,158,11,0.08);
+    --blue: #3b82f6;
+    --blue-bg: rgba(59,130,246,0.08);
+    --cyan: #06b6d4;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    font-family: 'Outfit', sans-serif;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(59,130,246,0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(59,130,246,0.03) 1px, transparent 1px);
+    background-size: 48px 48px;
+    pointer-events: none;
+    z-index: 0;
+  }
+  .container {
+    position: relative;
+    z-index: 1;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px 16px 40px;
+  }
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 0 24px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  .header-left {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+  .logo {
+    width: 42px;
+    height: 42px;
+    background: linear-gradient(135deg, var(--blue), var(--cyan));
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+    letter-spacing: -1px;
+    font-family: 'JetBrains Mono', monospace;
+  }
+  .header h1 {
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+  }
+  .header h1 span {
+    color: var(--text-secondary);
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: 8px;
+  }
+  .header-right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .status-pill {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .status-pill.live {
+    background: var(--green-bg);
+    color: var(--green);
+    border: 1px solid rgba(34,197,94,0.2);
+  }
+  .status-pill.offline {
+    background: var(--red-bg);
+    color: var(--red);
+    border: 1px solid rgba(239,68,68,0.2);
+  }
+  .status-dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    animation: pulse 2s ease-in-out infinite;
+  }
+  .status-pill.live .status-dot { background: var(--green); }
+  .status-pill.offline .status-dot { background: var(--red); animation: none; }
+  @keyframes pulse {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.4; transform: scale(0.85); }
+  }
+  .updated-text {
+    font-size: 11px;
+    color: var(--text-dim);
+    font-family: 'JetBrains Mono', monospace;
+  }
+  .stats-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 12px;
+    margin-bottom: 24px;
+  }
+  .stat-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 16px 18px;
+    transition: border-color 0.2s;
+  }
+  .stat-card:hover { border-color: var(--border-bright); }
+  .stat-label {
+    font-size: 11px;
+    font-weight: 500;
+    color: var(--text-dim);
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    margin-bottom: 6px;
+  }
+  .stat-value {
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'JetBrains Mono', monospace;
+    letter-spacing: -1px;
+  }
+  .stat-sub {
+    font-size: 12px;
+    color: var(--text-secondary);
+    margin-top: 2px;
+  }
+  .section { margin-bottom: 24px; }
+  .section-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--border);
+  }
+  .section-title {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--text-secondary);
+  }
+  .section-badge {
+    font-size: 11px;
+    padding: 3px 10px;
+    border-radius: 12px;
+    font-weight: 600;
+    font-family: 'JetBrains Mono', monospace;
+  }
+  .games-list { display: flex; flex-direction: column; gap: 8px; }
+  .game-row {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 14px 18px;
+    display: grid;
+    grid-template-columns: 1fr auto auto auto;
+    align-items: center;
+    gap: 16px;
+    transition: border-color 0.2s, background 0.2s;
+  }
+  .game-row:hover {
+    border-color: var(--border-bright);
+    background: var(--bg-card-hover);
+  }
+  .game-row.has-bet { border-left: 3px solid var(--green); }
+  .game-matchup { display: flex; flex-direction: column; gap: 2px; }
+  .game-teams {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'JetBrains Mono', monospace;
+  }
+  .game-id { font-size: 11px; color: var(--text-dim); }
+  .game-probs { text-align: center; }
+  .prob-label {
+    font-size: 10px;
+    color: var(--text-dim);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .prob-values {
+    font-size: 13px;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 600;
+  }
+  .game-ev { text-align: center; min-width: 70px; }
+  .ev-value {
+    font-size: 15px;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 700;
+  }
+  .ev-positive { color: var(--green); }
+  .ev-negative { color: var(--text-dim); }
+  .ev-team { font-size: 10px; color: var(--text-secondary); }
+  .game-goalie { min-width: 90px; text-align: center; }
+  .goalie-badge {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 8px;
+    font-size: 11px;
+    font-weight: 600;
+    font-family: 'JetBrains Mono', monospace;
+  }
+  .goalie-confirmed {
+    background: var(--green-bg);
+    color: var(--green);
+    border: 1px solid rgba(34,197,94,0.15);
+  }
+  .goalie-partial {
+    background: var(--amber-bg);
+    color: var(--amber);
+    border: 1px solid rgba(245,158,11,0.15);
+  }
+  .goalie-none {
+    background: rgba(255,255,255,0.03);
+    color: var(--text-dim);
+    border: 1px solid var(--border);
+  }
+  .bets-list { display: flex; flex-direction: column; gap: 8px; }
+  .bet-row {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--green);
+    border-radius: 12px;
+    padding: 14px 18px;
+    display: grid;
+    grid-template-columns: 1fr auto auto auto auto;
+    align-items: center;
+    gap: 16px;
+  }
+  .bet-team {
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'JetBrains Mono', monospace;
+  }
+  .bet-matchup { font-size: 11px; color: var(--text-secondary); }
+  .bet-detail { text-align: center; }
+  .bet-detail-label {
+    font-size: 10px;
+    color: var(--text-dim);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .bet-detail-value {
+    font-size: 14px;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 600;
+  }
+  .bet-time {
+    font-size: 11px;
+    color: var(--text-dim);
+    font-family: 'JetBrains Mono', monospace;
+  }
+  .empty-state { text-align: center; padding: 40px 20px; color: var(--text-dim); }
+  .empty-state .icon { font-size: 32px; margin-bottom: 8px; }
+  .empty-state p { font-size: 13px; }
+  .footer {
+    text-align: center;
+    padding: 24px 0;
+    border-top: 1px solid var(--border);
+    margin-top: 16px;
+  }
+  .footer p {
+    font-size: 11px;
+    color: var(--text-dim);
+    font-family: 'JetBrains Mono', monospace;
+  }
+  @media (max-width: 700px) {
+    .game-row { grid-template-columns: 1fr 1fr; gap: 10px; }
+    .bet-row { grid-template-columns: 1fr 1fr; gap: 10px; }
+    .header h1 span { display: none; }
+    .stat-value { font-size: 24px; }
+    .stats-row { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 420px) {
+    .stats-row { grid-template-columns: 1fr 1fr; }
+    .container { padding: 12px 10px 30px; }
+  }
+</style>
+</head>
+<body>
+<div class="container" id="app"></div>
+<script>
+const DATA = {"last_updated": "2026-03-01T18:01:12.790003+00:00", "today": "2026-03-01", "mode": "LIVE", "stats": {"total_bets_today": 3, "total_bets_all_time": 3, "total_games_scanned_today": 6, "total_games_scanned_all": 72, "runs_today": 12}, "all_games": [{"timestamp": "2026-03-01T18:01:11.747310+00:00", "game_date": "2026-03-01", "game_id": "2025020947", "away": "VGK", "home": "PIT", "mp_away_prob": "0.5450", "mp_home_prob": "0.4550", "goalies_confirmed": "True", "confirmed_count": "2", "pm_away_price": "0.5750", "pm_home_price": "0.4250", "best_ev": "0.0706", "best_ev_team": "PIT", "bet_placed": "YES"}, {"timestamp": "2026-03-01T18:01:11.747330+00:00", "game_date": "2026-03-01", "game_id": "2025020949", "away": "CHI", "home": "UTA", "mp_away_prob": "0.2760", "mp_home_prob": "0.7240", "goalies_confirmed": "False", "confirmed_count": "1", "pm_away_price": "0.2550", "pm_home_price": "0.7450", "best_ev": "0.0824", "best_ev_team": "CHI", "bet_placed": "NO"}, {"timestamp": "2026-03-01T18:01:11.747338+00:00", "game_date": "2026-03-01", "game_id": "2025020950", "away": "WPG", "home": "SJS", "mp_away_prob": "0.5490", "mp_home_prob": "0.4510", "goalies_confirmed": "False", "confirmed_count": "1", "pm_away_price": "0.5350", "pm_home_price": "0.4650", "best_ev": "0.0262", "best_ev_team": "WPG", "bet_placed": "NO"}, {"timestamp": "2026-03-01T18:01:11.747345+00:00", "game_date": "2026-03-01", "game_id": "2025020951", "away": "STL", "home": "MIN", "mp_away_prob": "0.2870", "mp_home_prob": "0.7130", "goalies_confirmed": "False", "confirmed_count": "0", "pm_away_price": "0.3350", "pm_home_price": "0.6650", "best_ev": "0.0722", "best_ev_team": "MIN", "bet_placed": "NO"}, {"timestamp": "2026-03-01T18:01:11.747350+00:00", "game_date": "2026-03-01", "game_id": "2025020948", "away": "FLA", "home": "NYI", "mp_away_prob": "0.5940", "mp_home_prob": "0.4060", "goalies_confirmed": "True", "confirmed_count": "2", "pm_away_price": "0.5750", "pm_home_price": "0.4250", "best_ev": "0.0330", "best_ev_team": "FLA", "bet_placed": "NO"}, {"timestamp": "2026-03-01T18:01:11.747356+00:00", "game_date": "2026-03-01", "game_id": "2025020952", "away": "CGY", "home": "ANA", "mp_away_prob": "0.3850", "mp_home_prob": "0.6150", "goalies_confirmed": "False", "confirmed_count": "1", "pm_away_price": "0.3800", "pm_home_price": "0.6200", "best_ev": "0.0132", "best_ev_team": "CGY", "bet_placed": "NO"}], "bets": [{"timestamp": "2026-03-01T17:25:13.619866+00:00", "game_date": "2026-03-01", "team": "PIT", "matchup": "VGK @ PIT", "mp_prob": "0.4710", "pm_price": "0.4250", "ev": "0.1082", "gap": "0.0460", "order_id": "0xbbab59480eaf779f1a"}, {"timestamp": "2026-03-01T17:25:14.462344+00:00", "game_date": "2026-03-01", "team": "CHI", "matchup": "CHI @ UTA", "mp_prob": "0.2760", "pm_price": "0.2500", "ev": "0.1040", "gap": "0.0260", "order_id": "0xcb2c04fbd83781f161"}, {"timestamp": "2026-03-01T17:46:11.290556+00:00", "game_date": "2026-03-01", "team": "FLA", "matchup": "FLA @ NYI", "mp_prob": "0.5940", "pm_price": "0.5650", "ev": "0.0513", "gap": "0.0290", "order_id": "0x47bace4515a2360cf6"}]};
+
+function timeAgo(isoStr) {
+  if (!isoStr) return "never";
+  const diff = (Date.now() - new Date(isoStr).getTime()) / 1000;
+  if (diff < 60) return "just now";
+  if (diff < 3600) return Math.floor(diff/60) + "m ago";
+  if (diff < 86400) return Math.floor(diff/3600) + "h " + Math.floor((diff%3600)/60) + "m ago";
+  return Math.floor(diff/86400) + "d ago";
+}
+
+function formatTime(isoStr) {
+  if (!isoStr) return "";
+  return new Date(isoStr).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+}
+
+function isRecent(isoStr, minutes) {
+  if (!isoStr) return false;
+  return (Date.now() - new Date(isoStr).getTime()) < (minutes || 20) * 60 * 1000;
+}
+
+function render() {
+  const app = document.getElementById("app");
+  const d = DATA;
+  const stats = d.stats || {};
+  const botActive = isRecent(d.last_updated);
+  const games = d.all_games || [];
+  const bets = d.bets || [];
+
+  const sortedGames = [...games].sort((a, b) => {
+    const ac = a.goalies_confirmed === "True" ? 1 : 0;
+    const bc = b.goalies_confirmed === "True" ? 1 : 0;
+    if (bc !== ac) return bc - ac;
+    return parseFloat(b.best_ev || 0) - parseFloat(a.best_ev || 0);
+  });
+
+  const totalBetsToday = stats.total_bets_today || 0;
+  const totalBetsAll = stats.total_bets_all_time || 0;
+  const confirmedGames = games.filter(g => g.goalies_confirmed === "True").length;
+
+  let h = `
+    <div class="header">
+      <div class="header-left">
+        <div class="logo">EV</div>
+        <h1>NHL EV Bot <span>Dashboard</span></h1>
+      </div>
+      <div class="header-right">
+        <span class="status-pill ${botActive ? 'live' : 'offline'}">
+          <span class="status-dot"></span>
+          ${botActive ? 'Bot Active' : 'Bot Idle'}
+        </span>
+        <span class="updated-text">Updated ${timeAgo(d.last_updated)}</span>
+      </div>
+    </div>
+    <div class="stats-row">
+      <div class="stat-card">
+        <div class="stat-label">Last Run</div>
+        <div class="stat-value" style="font-size:18px">${timeAgo(d.last_updated)}</div>
+        <div class="stat-sub">${formatTime(d.last_updated)}</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Runs Today</div>
+        <div class="stat-value">${stats.runs_today || 0}</div>
+        <div class="stat-sub">every 15 min</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Bets Today</div>
+        <div class="stat-value" style="color:${totalBetsToday > 0 ? 'var(--green)' : 'var(--text-primary)'}">${totalBetsToday}</div>
+        <div class="stat-sub">${totalBetsAll} all time</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Games Today</div>
+        <div class="stat-value">${games.length}</div>
+        <div class="stat-sub">${confirmedGames} goalies confirmed</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Mode</div>
+        <div class="stat-value" style="font-size:16px;color:${d.mode==='LIVE'?'var(--green)':'var(--amber)'}">${d.mode||'—'}</div>
+        <div class="stat-sub">EV &gt; 4% threshold</div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="section-header">
+        <span class="section-title">Today's Games</span>
+        <span class="section-badge" style="background:var(--blue-bg);color:var(--blue);border:1px solid rgba(59,130,246,0.15)">${d.today||'—'}</span>
+      </div>
+      <div class="games-list">`;
+
+  if (sortedGames.length === 0) {
+    h += '<div class="empty-state"><div class="icon">🏒</div><p>No games today or bot hasn\'t run yet</p></div>';
+  } else {
+    for (const g of sortedGames) {
+      const bestEv = parseFloat(g.best_ev || 0);
+      const evPct = (bestEv * 100).toFixed(1);
+      const isPos = bestEv > 0.04;
+      const hasBet = g.bet_placed === "YES";
+      const conf = g.goalies_confirmed === "True";
+      const cc = parseInt(g.confirmed_count || 0);
+      let gc = 'goalie-none', gt = cc+'/2';
+      if (conf) { gc='goalie-confirmed'; gt='✓ CONFIRMED'; }
+      else if (cc > 0) { gc='goalie-partial'; gt=cc+'/2'; }
+      const ap = (parseFloat(g.mp_away_prob||0)*100).toFixed(1);
+      const hp = (parseFloat(g.mp_home_prob||0)*100).toFixed(1);
+      const aPr = g.pm_away_price ? '$'+parseFloat(g.pm_away_price).toFixed(2) : '—';
+      const hPr = g.pm_home_price ? '$'+parseFloat(g.pm_home_price).toFixed(2) : '—';
+      h += `
+        <div class="game-row ${hasBet?'has-bet':''}">
+          <div class="game-matchup">
+            <div class="game-teams">${g.away} @ ${g.home}</div>
+            <div class="game-id">ID: ${g.game_id||'—'}</div>
+          </div>
+          <div class="game-probs">
+            <div class="prob-label">MoneyPuck</div>
+            <div class="prob-values">${ap}% / ${hp}%</div>
+            <div class="prob-label" style="margin-top:4px">Polymarket</div>
+            <div class="prob-values">${aPr} / ${hPr}</div>
+          </div>
+          <div class="game-ev">
+            <div class="ev-value ${isPos?'ev-positive':'ev-negative'}">${bestEv>0?'+':''}${evPct}%</div>
+            <div class="ev-team">${g.best_ev_team||''}</div>
+          </div>
+          <div class="game-goalie">
+            <span class="goalie-badge ${gc}">${gt}</span>
+          </div>
+        </div>`;
+    }
+  }
+
+  h += '</div></div><div class="section"><div class="section-header"><span class="section-title">Bets Placed</span><span class="section-badge" style="background:var(--green-bg);color:var(--green);border:1px solid rgba(34,197,94,0.15)">'+bets.length+' total</span></div><div class="bets-list">';
+
+  if (bets.length === 0) {
+    h += '<div class="empty-state"><div class="icon">💰</div><p>No bets placed yet — waiting for +EV opportunities with confirmed goalies</p></div>';
+  } else {
+    const sb = [...bets].reverse();
+    for (const b of sb) {
+      const ev = (parseFloat(b.ev||0)*100).toFixed(1);
+      const mp = (parseFloat(b.mp_prob||0)*100).toFixed(1);
+      const pp = parseFloat(b.pm_price||0).toFixed(2);
+      h += `
+        <div class="bet-row">
+          <div><div class="bet-team">${b.team}</div><div class="bet-matchup">${b.matchup||''}</div></div>
+          <div class="bet-detail"><div class="bet-detail-label">EV</div><div class="bet-detail-value ev-positive">+${ev}%</div></div>
+          <div class="bet-detail"><div class="bet-detail-label">MP Prob</div><div class="bet-detail-value">${mp}%</div></div>
+          <div class="bet-detail"><div class="bet-detail-label">PM Price</div><div class="bet-detail-value">$${pp}</div></div>
+          <div><div class="bet-time">${b.game_date||''}</div><div class="bet-time">${formatTime(b.timestamp)}</div></div>
+        </div>`;
+    }
+  }
+
+  h += '</div></div><div class="footer"><p>NHL EV Bot • Data from last bot run • Refresh page for latest</p></div>';
+  app.innerHTML = h;
+}
+
+render();
+</script>
+</body>
+</html>
