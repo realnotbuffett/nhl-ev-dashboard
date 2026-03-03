@@ -313,7 +313,7 @@ function render() {
   app.innerHTML = h;
 }
 
-fetch("https://jsonblob.com/api/jsonBlob/019cb55d-7bdf-73d9-abbc-91b2d8ca66aa").then(r=>r.json()).then(d=>{DATA=d;render();}).catch(()=>render());
+fetch("https://raw.githubusercontent.com/realnotbuffett/nhl-ev-dashboard/main/data.json?nocache="+Date.now()).then(r=>r.json()).then(d=>{DATA=d;render();}).catch(()=>render());
 </script>
 </body>
 </html>
