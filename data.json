@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-04T03:54:25.114561+00:00",
+  "last_updated": "2026-03-04T04:30:03.741969+00:00",
   "scoreboard": [
     {
       "game_id": 2025020959,
@@ -29,7 +29,7 @@
       "home": "NJD",
       "away_score": 1,
       "home_score": 5,
-      "state": "FINAL",
+      "state": "OFF",
       "period": 3,
       "period_type": "REG",
       "start_time": "2026-03-04T00:00:00Z"
@@ -62,7 +62,7 @@
       "home": "WPG",
       "away_score": 2,
       "home_score": 3,
-      "state": "FINAL",
+      "state": "OFF",
       "period": 4,
       "period_type": "OT",
       "start_time": "2026-03-04T01:00:00Z"
@@ -73,8 +73,8 @@
       "home": "CGY",
       "away_score": 6,
       "home_score": 1,
-      "state": "LIVE",
-      "period": 2,
+      "state": "CRIT",
+      "period": 3,
       "period_type": "REG",
       "start_time": "2026-03-04T02:00:00Z"
     },
@@ -83,8 +83,8 @@
       "away": "OTT",
       "home": "EDM",
       "away_score": 4,
-      "home_score": 2,
-      "state": "LIVE",
+      "home_score": 4,
+      "state": "CRIT",
       "period": 3,
       "period_type": "REG",
       "start_time": "2026-03-04T02:00:00Z"
@@ -93,8 +93,8 @@
       "game_id": 2025020967,
       "away": "TBL",
       "home": "MIN",
-      "away_score": 0,
-      "home_score": 1,
+      "away_score": 1,
+      "home_score": 3,
       "state": "LIVE",
       "period": 2,
       "period_type": "REG",
@@ -104,10 +104,10 @@
       "game_id": 2025020968,
       "away": "COL",
       "home": "ANA",
-      "away_score": 2,
-      "home_score": 0,
+      "away_score": 3,
+      "home_score": 1,
       "state": "LIVE",
-      "period": 1,
+      "period": 2,
       "period_type": "REG",
       "start_time": "2026-03-04T03:00:00Z"
     },
@@ -115,10 +115,10 @@
       "game_id": 2025020969,
       "away": "MTL",
       "home": "SJS",
-      "away_score": 1,
-      "home_score": 1,
+      "away_score": 2,
+      "home_score": 2,
       "state": "LIVE",
-      "period": 1,
+      "period": 2,
       "period_type": "REG",
       "start_time": "2026-03-04T03:00:00Z"
     }
