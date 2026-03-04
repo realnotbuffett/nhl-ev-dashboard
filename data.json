@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-04T03:00:28.575703+00:00",
+  "last_updated": "2026-03-04T03:15:03.069021+00:00",
   "today": "2026-03-03",
   "mode": "LIVE",
   "bets": [
@@ -214,40 +214,7 @@
       "order_id": "0x99faafb47b45d8d712"
     }
   ],
-  "all_games": [
-    {
-      "timestamp": "2026-03-04T03:00:28.557785+00:00",
-      "game_date": "2026-03-03",
-      "game_id": "2025020968",
-      "away": "COL",
-      "home": "ANA",
-      "mp_away_prob": "0.5340",
-      "mp_home_prob": "0.4660",
-      "goalies_confirmed": "True",
-      "confirmed_count": "2",
-      "pm_away_price": "0.5650",
-      "pm_home_price": "0.4350",
-      "best_ev": "0.0713",
-      "best_ev_team": "ANA",
-      "bet_placed": "NO"
-    },
-    {
-      "timestamp": "2026-03-04T03:00:28.557803+00:00",
-      "game_date": "2026-03-03",
-      "game_id": "2025020969",
-      "away": "MTL",
-      "home": "SJS",
-      "mp_away_prob": "0.5800",
-      "mp_home_prob": "0.4200",
-      "goalies_confirmed": "True",
-      "confirmed_count": "2",
-      "pm_away_price": "0.5550",
-      "pm_home_price": "0.4450",
-      "best_ev": "0.0450",
-      "best_ev_team": "MTL",
-      "bet_placed": "NO"
-    }
-  ],
+  "all_games": [],
   "today_games": [
     {
       "timestamp": "2026-03-03T14:01:57.278759+00:00",
