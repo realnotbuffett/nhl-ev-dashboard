@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-05T03:45:04.489524+00:00",
+  "last_updated": "2026-03-05T04:00:03.348191+00:00",
   "scoreboard": [
     {
       "game_id": 2025020970,
@@ -28,7 +28,7 @@
       "away": "CAR",
       "home": "VAN",
       "away_score": 1,
-      "home_score": 1,
+      "home_score": 2,
       "state": "LIVE",
       "period": 1,
       "period_type": "REG",
