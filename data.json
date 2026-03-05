@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-05T04:00:03.348191+00:00",
+  "last_updated": "2026-03-05T04:15:03.469975+00:00",
   "scoreboard": [
     {
       "game_id": 2025020970,
@@ -27,10 +27,10 @@
       "game_id": 2025020972,
       "away": "CAR",
       "home": "VAN",
-      "away_score": 1,
+      "away_score": 3,
       "home_score": 2,
       "state": "LIVE",
-      "period": 1,
+      "period": 2,
       "period_type": "REG",
       "start_time": "2026-03-05T03:00:00Z"
     },
@@ -41,7 +41,7 @@
       "away_score": 1,
       "home_score": 3,
       "state": "LIVE",
-      "period": 1,
+      "period": 2,
       "period_type": "REG",
       "start_time": "2026-03-05T03:00:00Z"
     },
@@ -52,7 +52,7 @@
       "away_score": 1,
       "home_score": 1,
       "state": "LIVE",
-      "period": 1,
+      "period": 2,
       "period_type": "REG",
       "start_time": "2026-03-05T03:00:00Z"
     }
