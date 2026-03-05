@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-05T03:30:03.548500+00:00",
+  "last_updated": "2026-03-05T03:45:04.489524+00:00",
   "scoreboard": [
     {
       "game_id": 2025020970,
@@ -18,7 +18,7 @@
       "home": "NJD",
       "away_score": 3,
       "home_score": 4,
-      "state": "FINAL",
+      "state": "OFF",
       "period": 5,
       "period_type": "SO",
       "start_time": "2026-03-05T00:00:00Z"
@@ -28,7 +28,7 @@
       "away": "CAR",
       "home": "VAN",
       "away_score": 1,
-      "home_score": 0,
+      "home_score": 1,
       "state": "LIVE",
       "period": 1,
       "period_type": "REG",
@@ -39,7 +39,7 @@
       "away": "NYI",
       "home": "ANA",
       "away_score": 1,
-      "home_score": 0,
+      "home_score": 3,
       "state": "LIVE",
       "period": 1,
       "period_type": "REG",
