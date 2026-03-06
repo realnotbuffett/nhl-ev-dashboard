@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-06T04:00:03.600609+00:00",
+  "last_updated": "2026-03-06T04:15:03.657729+00:00",
   "scoreboard": [
     {
       "game_id": 2025020975,
@@ -71,7 +71,7 @@
       "game_id": 2025020981,
       "away": "OTT",
       "home": "CGY",
-      "away_score": 1,
+      "away_score": 2,
       "home_score": 1,
       "state": "LIVE",
       "period": 3,
@@ -83,7 +83,7 @@
       "away": "NYI",
       "home": "LAK",
       "away_score": 0,
-      "home_score": 1,
+      "home_score": 3,
       "state": "LIVE",
       "period": 2,
       "period_type": "REG",
