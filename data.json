@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-06T14:46:14.183786+00:00",
+  "last_updated": "2026-03-06T15:01:14.611345+00:00",
   "scoreboard": [
     {
       "game_id": 2025020983,
@@ -365,7 +365,7 @@
   ],
   "all_games": [
     {
-      "timestamp": "2026-03-06T14:46:14.162746+00:00",
+      "timestamp": "2026-03-06T15:01:14.590030+00:00",
       "game_date": "2026-03-06",
       "game_id": "2025020983",
       "away": "FLA",
@@ -381,7 +381,7 @@
       "bet_placed": "NO"
     },
     {
-      "timestamp": "2026-03-06T14:46:14.162765+00:00",
+      "timestamp": "2026-03-06T15:01:14.590047+00:00",
       "game_date": "2026-03-06",
       "game_id": "2025020984",
       "away": "COL",
@@ -397,7 +397,7 @@
       "bet_placed": "NO"
     },
     {
-      "timestamp": "2026-03-06T14:46:14.162772+00:00",
+      "timestamp": "2026-03-06T15:01:14.590054+00:00",
       "game_date": "2026-03-06",
       "game_id": "2025020985",
       "away": "VAN",
@@ -413,7 +413,7 @@
       "bet_placed": "NO"
     },
     {
-      "timestamp": "2026-03-06T14:46:14.162778+00:00",
+      "timestamp": "2026-03-06T15:01:14.590060+00:00",
       "game_date": "2026-03-06",
       "game_id": "2025020986",
       "away": "CAR",
@@ -429,7 +429,7 @@
       "bet_placed": "NO"
     },
     {
-      "timestamp": "2026-03-06T14:46:14.162784+00:00",
+      "timestamp": "2026-03-06T15:01:14.590065+00:00",
       "game_date": "2026-03-06",
       "game_id": "2025020987",
       "away": "MTL",
@@ -445,7 +445,7 @@
       "bet_placed": "NO"
     },
     {
-      "timestamp": "2026-03-06T14:46:14.162789+00:00",
+      "timestamp": "2026-03-06T15:01:14.590070+00:00",
       "game_date": "2026-03-06",
       "game_id": "2025020988",
       "away": "MIN",
@@ -461,7 +461,7 @@
       "bet_placed": "NO"
     },
     {
-      "timestamp": "2026-03-06T14:46:14.162794+00:00",
+      "timestamp": "2026-03-06T15:01:14.590075+00:00",
       "game_date": "2026-03-06",
       "game_id": "2025020989",
       "away": "STL",
@@ -925,13 +925,125 @@
       "best_ev": "0.0055",
       "best_ev_team": "SJS",
       "bet_placed": "NO"
+    },
+    {
+      "timestamp": "2026-03-06T15:01:14.590030+00:00",
+      "game_date": "2026-03-06",
+      "game_id": "2025020983",
+      "away": "FLA",
+      "home": "DET",
+      "mp_away_prob": "0.4160",
+      "mp_home_prob": "0.5840",
+      "goalies_confirmed": "False",
+      "confirmed_count": "0",
+      "pm_away_price": "0.4250",
+      "pm_home_price": "0.5750",
+      "best_ev": "0.0157",
+      "best_ev_team": "DET",
+      "bet_placed": "NO"
+    },
+    {
+      "timestamp": "2026-03-06T15:01:14.590047+00:00",
+      "game_date": "2026-03-06",
+      "game_id": "2025020984",
+      "away": "COL",
+      "home": "DAL",
+      "mp_away_prob": "0.4870",
+      "mp_home_prob": "0.5130",
+      "goalies_confirmed": "False",
+      "confirmed_count": "0",
+      "pm_away_price": "0.5250",
+      "pm_home_price": "0.4750",
+      "best_ev": "0.0800",
+      "best_ev_team": "DAL",
+      "bet_placed": "NO"
+    },
+    {
+      "timestamp": "2026-03-06T15:01:14.590054+00:00",
+      "game_date": "2026-03-06",
+      "game_id": "2025020985",
+      "away": "VAN",
+      "home": "CHI",
+      "mp_away_prob": "0.4330",
+      "mp_home_prob": "0.5670",
+      "goalies_confirmed": "False",
+      "confirmed_count": "0",
+      "pm_away_price": "0.4150",
+      "pm_home_price": "0.5850",
+      "best_ev": "0.0434",
+      "best_ev_team": "VAN",
+      "bet_placed": "NO"
+    },
+    {
+      "timestamp": "2026-03-06T15:01:14.590060+00:00",
+      "game_date": "2026-03-06",
+      "game_id": "2025020986",
+      "away": "CAR",
+      "home": "EDM",
+      "mp_away_prob": "0.5390",
+      "mp_home_prob": "0.4610",
+      "goalies_confirmed": "False",
+      "confirmed_count": "0",
+      "pm_away_price": "0.5150",
+      "pm_home_price": "0.4850",
+      "best_ev": "0.0466",
+      "best_ev_team": "CAR",
+      "bet_placed": "NO"
+    },
+    {
+      "timestamp": "2026-03-06T15:01:14.590065+00:00",
+      "game_date": "2026-03-06",
+      "game_id": "2025020987",
+      "away": "MTL",
+      "home": "ANA",
+      "mp_away_prob": "0.4960",
+      "mp_home_prob": "0.5040",
+      "goalies_confirmed": "False",
+      "confirmed_count": "1",
+      "pm_away_price": "0.4950",
+      "pm_home_price": "0.5050",
+      "best_ev": "0.0020",
+      "best_ev_team": "MTL",
+      "bet_placed": "NO"
+    },
+    {
+      "timestamp": "2026-03-06T15:01:14.590070+00:00",
+      "game_date": "2026-03-06",
+      "game_id": "2025020988",
+      "away": "MIN",
+      "home": "VGK",
+      "mp_away_prob": "0.4950",
+      "mp_home_prob": "0.5050",
+      "goalies_confirmed": "False",
+      "confirmed_count": "0",
+      "pm_away_price": "0.4950",
+      "pm_home_price": "0.5050",
+      "best_ev": "0.0000",
+      "best_ev_team": "MIN",
+      "bet_placed": "NO"
+    },
+    {
+      "timestamp": "2026-03-06T15:01:14.590075+00:00",
+      "game_date": "2026-03-06",
+      "game_id": "2025020989",
+      "away": "STL",
+      "home": "SJS",
+      "mp_away_prob": "0.4520",
+      "mp_home_prob": "0.5480",
+      "goalies_confirmed": "False",
+      "confirmed_count": "0",
+      "pm_away_price": "0.4550",
+      "pm_home_price": "0.5450",
+      "best_ev": "0.0055",
+      "best_ev_team": "SJS",
+      "bet_placed": "NO"
     }
   ],
   "stats": {
     "total_bets_today": 0,
     "total_bets_all_time": 20,
-    "total_games_scanned_today": 28,
-    "total_games_scanned_all": 1545,
-    "runs_today": 5
+    "total_games_scanned_today": 35,
+    "total_games_scanned_all": 1552,
+    "runs_today": 6
   }
 }
