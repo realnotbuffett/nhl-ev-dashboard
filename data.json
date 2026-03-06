@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-06T00:30:47.212460+00:00",
+  "last_updated": "2026-03-06T00:45:47.797628+00:00",
   "scoreboard": [
     {
       "game_id": 2025020975,
@@ -28,7 +28,7 @@
       "away": "BUF",
       "home": "PIT",
       "away_score": 1,
-      "home_score": 0,
+      "home_score": 1,
       "state": "LIVE",
       "period": 1,
       "period_type": "REG",
@@ -376,23 +376,23 @@
   ],
   "all_games": [
     {
-      "timestamp": "2026-03-06T00:30:47.176790+00:00",
+      "timestamp": "2026-03-06T00:45:47.772237+00:00",
       "game_date": "2026-03-05",
       "game_id": "2025020979",
       "away": "BOS",
       "home": "NSH",
-      "mp_away_prob": "0.5040",
-      "mp_home_prob": "0.4960",
-      "goalies_confirmed": "False",
-      "confirmed_count": "1",
+      "mp_away_prob": "0.5010",
+      "mp_home_prob": "0.4990",
+      "goalies_confirmed": "True",
+      "confirmed_count": "2",
       "pm_away_price": "0.5050",
       "pm_home_price": "0.4950",
-      "best_ev": "0.0020",
+      "best_ev": "0.0081",
       "best_ev_team": "NSH",
       "bet_placed": "NO"
     },
     {
-      "timestamp": "2026-03-06T00:30:47.177196+00:00",
+      "timestamp": "2026-03-06T00:45:47.772253+00:00",
       "game_date": "2026-03-05",
       "game_id": "2025020980",
       "away": "TBL",
@@ -408,7 +408,7 @@
       "bet_placed": "NO"
     },
     {
-      "timestamp": "2026-03-06T00:30:47.177266+00:00",
+      "timestamp": "2026-03-06T00:45:47.772261+00:00",
       "game_date": "2026-03-05",
       "game_id": "2025020981",
       "away": "OTT",
@@ -424,7 +424,7 @@
       "bet_placed": "YES"
     },
     {
-      "timestamp": "2026-03-06T00:30:47.177315+00:00",
+      "timestamp": "2026-03-06T00:45:47.772268+00:00",
       "game_date": "2026-03-05",
       "game_id": "2025020982",
       "away": "NYI",
@@ -5832,13 +5832,77 @@
       "best_ev": "0.0374",
       "best_ev_team": "LAK",
       "bet_placed": "NO"
+    },
+    {
+      "timestamp": "2026-03-06T00:45:47.772237+00:00",
+      "game_date": "2026-03-05",
+      "game_id": "2025020979",
+      "away": "BOS",
+      "home": "NSH",
+      "mp_away_prob": "0.5010",
+      "mp_home_prob": "0.4990",
+      "goalies_confirmed": "True",
+      "confirmed_count": "2",
+      "pm_away_price": "0.5050",
+      "pm_home_price": "0.4950",
+      "best_ev": "0.0081",
+      "best_ev_team": "NSH",
+      "bet_placed": "NO"
+    },
+    {
+      "timestamp": "2026-03-06T00:45:47.772253+00:00",
+      "game_date": "2026-03-05",
+      "game_id": "2025020980",
+      "away": "TBL",
+      "home": "WPG",
+      "mp_away_prob": "0.6150",
+      "mp_home_prob": "0.3850",
+      "goalies_confirmed": "False",
+      "confirmed_count": "1",
+      "pm_away_price": "0.6450",
+      "pm_home_price": "0.3550",
+      "best_ev": "0.0845",
+      "best_ev_team": "WPG",
+      "bet_placed": "NO"
+    },
+    {
+      "timestamp": "2026-03-06T00:45:47.772261+00:00",
+      "game_date": "2026-03-05",
+      "game_id": "2025020981",
+      "away": "OTT",
+      "home": "CGY",
+      "mp_away_prob": "0.5890",
+      "mp_home_prob": "0.4110",
+      "goalies_confirmed": "True",
+      "confirmed_count": "2",
+      "pm_away_price": "0.6150",
+      "pm_home_price": "0.3850",
+      "best_ev": "0.0675",
+      "best_ev_team": "CGY",
+      "bet_placed": "YES"
+    },
+    {
+      "timestamp": "2026-03-06T00:45:47.772268+00:00",
+      "game_date": "2026-03-05",
+      "game_id": "2025020982",
+      "away": "NYI",
+      "home": "LAK",
+      "mp_away_prob": "0.4450",
+      "mp_home_prob": "0.5550",
+      "goalies_confirmed": "False",
+      "confirmed_count": "0",
+      "pm_away_price": "0.4650",
+      "pm_home_price": "0.5350",
+      "best_ev": "0.0374",
+      "best_ev_team": "LAK",
+      "bet_placed": "NO"
     }
   ],
   "stats": {
     "total_bets_today": 4,
     "total_bets_all_time": 20,
-    "total_games_scanned_today": 337,
-    "total_games_scanned_all": 1499,
-    "runs_today": 44
+    "total_games_scanned_today": 341,
+    "total_games_scanned_all": 1503,
+    "runs_today": 45
   }
 }
