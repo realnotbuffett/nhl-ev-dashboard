@@ -1,13 +1,13 @@
 {
-  "last_updated": "2026-03-06T02:30:19.887503+00:00",
+  "last_updated": "2026-03-06T02:45:03.639884+00:00",
   "scoreboard": [
     {
       "game_id": 2025020975,
       "away": "TOR",
       "home": "NYR",
       "away_score": 2,
-      "home_score": 5,
-      "state": "LIVE",
+      "home_score": 6,
+      "state": "CRIT",
       "period": 3,
       "period_type": "REG",
       "start_time": "2026-03-06T00:00:00Z"
@@ -18,7 +18,7 @@
       "home": "PHI",
       "away_score": 3,
       "home_score": 0,
-      "state": "CRIT",
+      "state": "FINAL",
       "period": 3,
       "period_type": "REG",
       "start_time": "2026-03-06T00:00:00Z"
@@ -27,9 +27,9 @@
       "game_id": 2025020977,
       "away": "BUF",
       "home": "PIT",
-      "away_score": 4,
+      "away_score": 5,
       "home_score": 1,
-      "state": "CRIT",
+      "state": "FINAL",
       "period": 3,
       "period_type": "REG",
       "start_time": "2026-03-06T00:00:00Z"
@@ -39,8 +39,8 @@
       "away": "FLA",
       "home": "CBJ",
       "away_score": 2,
-      "home_score": 3,
-      "state": "CRIT",
+      "home_score": 4,
+      "state": "FINAL",
       "period": 3,
       "period_type": "REG",
       "start_time": "2026-03-06T00:00:00Z"
@@ -50,7 +50,7 @@
       "away": "BOS",
       "home": "NSH",
       "away_score": 1,
-      "home_score": 3,
+      "home_score": 5,
       "state": "LIVE",
       "period": 2,
       "period_type": "REG",
@@ -61,7 +61,7 @@
       "away": "TBL",
       "home": "WPG",
       "away_score": 0,
-      "home_score": 0,
+      "home_score": 2,
       "state": "LIVE",
       "period": 2,
       "period_type": "REG",
@@ -72,7 +72,7 @@
       "away": "OTT",
       "home": "CGY",
       "away_score": 0,
-      "home_score": 0,
+      "home_score": 1,
       "state": "LIVE",
       "period": 1,
       "period_type": "REG",
@@ -82,9 +82,9 @@
       "game_id": 2025020982,
       "away": "NYI",
       "home": "LAK",
-      "away_score": null,
-      "home_score": null,
-      "state": "PRE",
+      "away_score": 0,
+      "home_score": 0,
+      "state": "LIVE",
       "period": 1,
       "period_type": "REG",
       "start_time": "2026-03-06T02:30:00Z"
@@ -374,24 +374,7 @@
       "order_id": "0x5d218ae95b7f07679d"
     }
   ],
-  "all_games": [
-    {
-      "timestamp": "2026-03-06T02:30:19.864882+00:00",
-      "game_date": "2026-03-05",
-      "game_id": "2025020982",
-      "away": "NYI",
-      "home": "LAK",
-      "mp_away_prob": "0.4740",
-      "mp_home_prob": "0.5260",
-      "goalies_confirmed": "False",
-      "confirmed_count": "1",
-      "pm_away_price": "0.4750",
-      "pm_home_price": "0.5250",
-      "best_ev": "0.0019",
-      "best_ev_team": "LAK",
-      "bet_placed": "NO"
-    }
-  ],
+  "all_games": [],
   "today_games": [
     {
       "timestamp": "2026-03-05T14:01:28.851606+00:00",
