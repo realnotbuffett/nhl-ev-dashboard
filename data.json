@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-07T04:15:03.896667+00:00",
+  "last_updated": "2026-03-07T04:30:04.061092+00:00",
   "scoreboard": [
     {
       "game_id": 2025020983,
@@ -18,7 +18,7 @@
       "home": "DAL",
       "away_score": 5,
       "home_score": 4,
-      "state": "FINAL",
+      "state": "OFF",
       "period": 5,
       "period_type": "SO",
       "start_time": "2026-03-07T01:00:00Z"
@@ -38,9 +38,9 @@
       "game_id": 2025020986,
       "away": "CAR",
       "home": "EDM",
-      "away_score": 4,
-      "home_score": 2,
-      "state": "LIVE",
+      "away_score": 6,
+      "home_score": 3,
+      "state": "CRIT",
       "period": 3,
       "period_type": "REG",
       "start_time": "2026-03-07T02:00:00Z"
@@ -49,7 +49,7 @@
       "game_id": 2025020987,
       "away": "MTL",
       "home": "ANA",
-      "away_score": 2,
+      "away_score": 5,
       "home_score": 4,
       "state": "LIVE",
       "period": 3,
@@ -60,7 +60,7 @@
       "game_id": 2025020988,
       "away": "MIN",
       "home": "VGK",
-      "away_score": 1,
+      "away_score": 3,
       "home_score": 0,
       "state": "LIVE",
       "period": 2,
@@ -72,7 +72,7 @@
       "away": "STL",
       "home": "SJS",
       "away_score": 1,
-      "home_score": 0,
+      "home_score": 1,
       "state": "LIVE",
       "period": 2,
       "period_type": "REG",
