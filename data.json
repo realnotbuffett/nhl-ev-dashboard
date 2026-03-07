@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-07T18:08:37.710688+00:00",
+  "last_updated": "2026-03-07T18:31:42.136597+00:00",
   "scoreboard": [
     {
       "game_id": 2025020990,
@@ -8,7 +8,7 @@
       "away_score": 0,
       "home_score": 0,
       "state": "LIVE",
-      "period": 1,
+      "period": 2,
       "period_type": "REG",
       "start_time": "2026-03-07T17:30:00Z"
     },
@@ -451,23 +451,23 @@
   ],
   "all_games": [
     {
-      "timestamp": "2026-03-07T18:08:37.694374+00:00",
+      "timestamp": "2026-03-07T18:31:42.110805+00:00",
       "game_date": "2026-03-07",
       "game_id": "2025020991",
       "away": "NYR",
       "home": "NJD",
-      "mp_away_prob": "0.3810",
-      "mp_home_prob": "0.6190",
-      "goalies_confirmed": "False",
-      "confirmed_count": "1",
+      "mp_away_prob": "0.3830",
+      "mp_home_prob": "0.6170",
+      "goalies_confirmed": "True",
+      "confirmed_count": "2",
       "pm_away_price": "0.3950",
       "pm_home_price": "0.6050",
-      "best_ev": "0.0231",
+      "best_ev": "0.0198",
       "best_ev_team": "NJD",
       "bet_placed": "NO"
     },
     {
-      "timestamp": "2026-03-07T18:08:37.694403+00:00",
+      "timestamp": "2026-03-07T18:31:42.110827+00:00",
       "game_date": "2026-03-07",
       "game_id": "2025020992",
       "away": "NSH",
@@ -483,7 +483,7 @@
       "bet_placed": "NO"
     },
     {
-      "timestamp": "2026-03-07T18:08:37.694420+00:00",
+      "timestamp": "2026-03-07T18:31:42.110839+00:00",
       "game_date": "2026-03-07",
       "game_id": "2025020993",
       "away": "PHI",
@@ -499,7 +499,7 @@
       "bet_placed": "NO"
     },
     {
-      "timestamp": "2026-03-07T18:08:37.694434+00:00",
+      "timestamp": "2026-03-07T18:31:42.110846+00:00",
       "game_date": "2026-03-07",
       "game_id": "2025020994",
       "away": "TBL",
@@ -515,7 +515,7 @@
       "bet_placed": "NO"
     },
     {
-      "timestamp": "2026-03-07T18:08:37.694447+00:00",
+      "timestamp": "2026-03-07T18:31:42.110856+00:00",
       "game_date": "2026-03-07",
       "game_id": "2025020995",
       "away": "UTA",
@@ -531,7 +531,7 @@
       "bet_placed": "NO"
     },
     {
-      "timestamp": "2026-03-07T18:08:37.694459+00:00",
+      "timestamp": "2026-03-07T18:31:42.110871+00:00",
       "game_date": "2026-03-07",
       "game_id": "2025020996",
       "away": "VAN",
@@ -540,14 +540,14 @@
       "mp_home_prob": "0.7180",
       "goalies_confirmed": "False",
       "confirmed_count": "1",
-      "pm_away_price": "0.2825",
-      "pm_home_price": "0.7175",
-      "best_ev": "0.0007",
-      "best_ev_team": "WPG",
+      "pm_away_price": "0.2780",
+      "pm_home_price": "0.7220",
+      "best_ev": "0.0144",
+      "best_ev_team": "VAN",
       "bet_placed": "NO"
     },
     {
-      "timestamp": "2026-03-07T18:08:37.694471+00:00",
+      "timestamp": "2026-03-07T18:31:42.110887+00:00",
       "game_date": "2026-03-07",
       "game_id": "2025020997",
       "away": "MTL",
@@ -563,7 +563,7 @@
       "bet_placed": "NO"
     },
     {
-      "timestamp": "2026-03-07T18:08:37.694484+00:00",
+      "timestamp": "2026-03-07T18:31:42.110905+00:00",
       "game_date": "2026-03-07",
       "game_id": "2025020998",
       "away": "CAR",
@@ -579,7 +579,7 @@
       "bet_placed": "NO"
     },
     {
-      "timestamp": "2026-03-07T18:08:37.694496+00:00",
+      "timestamp": "2026-03-07T18:31:42.110921+00:00",
       "game_date": "2026-03-07",
       "game_id": "2025020999",
       "away": "NYI",
@@ -595,7 +595,7 @@
       "bet_placed": "NO"
     },
     {
-      "timestamp": "2026-03-07T18:08:37.694508+00:00",
+      "timestamp": "2026-03-07T18:31:42.111099+00:00",
       "game_date": "2026-03-07",
       "game_id": "2025021000",
       "away": "OTT",
@@ -626,7 +626,11 @@
       "pm_home_price": "0.5450",
       "best_ev": "0.0484",
       "best_ev_team": "WSH",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T14:01:55.726735+00:00",
@@ -642,7 +646,11 @@
       "pm_home_price": "0.6050",
       "best_ev": "0.0152",
       "best_ev_team": "NYR",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T14:01:55.726743+00:00",
@@ -658,7 +666,11 @@
       "pm_home_price": "0.6350",
       "best_ev": "0.0466",
       "best_ev_team": "NSH",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T14:01:55.726748+00:00",
@@ -674,7 +686,11 @@
       "pm_home_price": "0.5550",
       "best_ev": "0.0613",
       "best_ev_team": "PIT",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T14:01:55.726753+00:00",
@@ -690,7 +706,11 @@
       "pm_home_price": "0.3650",
       "best_ev": "0.0329",
       "best_ev_team": "TOR",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T14:01:55.726764+00:00",
@@ -706,7 +726,11 @@
       "pm_home_price": "0.4850",
       "best_ev": "0.0784",
       "best_ev_team": "CBJ",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T14:01:55.726769+00:00",
@@ -722,7 +746,11 @@
       "pm_home_price": "0.7050",
       "best_ev": "0.0136",
       "best_ev_team": "VAN",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T14:01:55.726774+00:00",
@@ -738,7 +766,11 @@
       "pm_home_price": "0.5250",
       "best_ev": "0.0229",
       "best_ev_team": "LAK",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T14:01:55.726780+00:00",
@@ -754,7 +786,11 @@
       "pm_home_price": "0.3650",
       "best_ev": "0.0063",
       "best_ev_team": "CAR",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T14:01:55.726786+00:00",
@@ -770,7 +806,11 @@
       "pm_home_price": "0.4350",
       "best_ev": "0.0159",
       "best_ev_team": "NYI",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T14:01:55.726791+00:00",
@@ -786,7 +826,11 @@
       "pm_home_price": "0.4050",
       "best_ev": "0.0864",
       "best_ev_team": "SEA",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T14:16:50.041411+00:00",
@@ -802,7 +846,11 @@
       "pm_home_price": "0.5450",
       "best_ev": "0.0484",
       "best_ev_team": "WSH",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T14:16:50.041428+00:00",
@@ -818,7 +866,11 @@
       "pm_home_price": "0.5950",
       "best_ev": "0.0067",
       "best_ev_team": "NJD",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T14:16:50.041435+00:00",
@@ -834,7 +886,11 @@
       "pm_home_price": "0.6350",
       "best_ev": "0.0466",
       "best_ev_team": "NSH",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T14:16:50.041441+00:00",
@@ -850,7 +906,11 @@
       "pm_home_price": "0.5550",
       "best_ev": "0.0613",
       "best_ev_team": "PIT",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T14:16:50.041446+00:00",
@@ -866,7 +926,11 @@
       "pm_home_price": "0.3650",
       "best_ev": "0.0329",
       "best_ev_team": "TOR",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T14:16:50.041451+00:00",
@@ -882,7 +946,11 @@
       "pm_home_price": "0.4750",
       "best_ev": "0.1011",
       "best_ev_team": "CBJ",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T14:16:50.041456+00:00",
@@ -898,7 +966,11 @@
       "pm_home_price": "0.7050",
       "best_ev": "0.0136",
       "best_ev_team": "VAN",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T14:16:50.041461+00:00",
@@ -914,7 +986,11 @@
       "pm_home_price": "0.5250",
       "best_ev": "0.0229",
       "best_ev_team": "LAK",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T14:16:50.041467+00:00",
@@ -930,7 +1006,11 @@
       "pm_home_price": "0.3650",
       "best_ev": "0.0063",
       "best_ev_team": "CAR",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T14:16:50.041473+00:00",
@@ -946,7 +1026,11 @@
       "pm_home_price": "0.4350",
       "best_ev": "0.0159",
       "best_ev_team": "NYI",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T14:16:50.041478+00:00",
@@ -962,7 +1046,11 @@
       "pm_home_price": "0.4050",
       "best_ev": "0.0864",
       "best_ev_team": "SEA",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T14:31:50.508655+00:00",
@@ -978,7 +1066,11 @@
       "pm_home_price": "0.5400",
       "best_ev": "0.0370",
       "best_ev_team": "WSH",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T14:31:50.508671+00:00",
@@ -994,7 +1086,11 @@
       "pm_home_price": "0.5950",
       "best_ev": "0.0067",
       "best_ev_team": "NJD",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T14:31:50.508679+00:00",
@@ -1010,7 +1106,11 @@
       "pm_home_price": "0.6350",
       "best_ev": "0.0466",
       "best_ev_team": "NSH",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T14:31:50.508684+00:00",
@@ -1026,7 +1126,11 @@
       "pm_home_price": "0.5550",
       "best_ev": "0.0613",
       "best_ev_team": "PIT",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T14:31:50.508690+00:00",
@@ -1042,7 +1146,11 @@
       "pm_home_price": "0.3650",
       "best_ev": "0.0329",
       "best_ev_team": "TOR",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T14:31:50.508694+00:00",
@@ -1058,7 +1166,11 @@
       "pm_home_price": "0.4850",
       "best_ev": "0.0784",
       "best_ev_team": "CBJ",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T14:31:50.508699+00:00",
@@ -1074,7 +1186,11 @@
       "pm_home_price": "0.7050",
       "best_ev": "0.0136",
       "best_ev_team": "VAN",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T14:31:50.508705+00:00",
@@ -1090,7 +1206,11 @@
       "pm_home_price": "0.5250",
       "best_ev": "0.0229",
       "best_ev_team": "LAK",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T14:31:50.508711+00:00",
@@ -1106,7 +1226,11 @@
       "pm_home_price": "0.3650",
       "best_ev": "0.0063",
       "best_ev_team": "CAR",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T14:31:50.508716+00:00",
@@ -1122,7 +1246,11 @@
       "pm_home_price": "0.4350",
       "best_ev": "0.0159",
       "best_ev_team": "NYI",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T14:31:50.508722+00:00",
@@ -1138,7 +1266,11 @@
       "pm_home_price": "0.4050",
       "best_ev": "0.0864",
       "best_ev_team": "SEA",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T14:46:50.538606+00:00",
@@ -1154,7 +1286,11 @@
       "pm_home_price": "0.5450",
       "best_ev": "0.0484",
       "best_ev_team": "WSH",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T14:46:50.538624+00:00",
@@ -1170,7 +1306,11 @@
       "pm_home_price": "0.5850",
       "best_ev": "0.0239",
       "best_ev_team": "NJD",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T14:46:50.538633+00:00",
@@ -1186,7 +1326,11 @@
       "pm_home_price": "0.6350",
       "best_ev": "0.0466",
       "best_ev_team": "NSH",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T14:46:50.538639+00:00",
@@ -1202,7 +1346,11 @@
       "pm_home_price": "0.5550",
       "best_ev": "0.0613",
       "best_ev_team": "PIT",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T14:46:50.538646+00:00",
@@ -1218,7 +1366,11 @@
       "pm_home_price": "0.3650",
       "best_ev": "0.0329",
       "best_ev_team": "TOR",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T14:46:50.538652+00:00",
@@ -1234,7 +1386,11 @@
       "pm_home_price": "0.4850",
       "best_ev": "0.0784",
       "best_ev_team": "CBJ",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T14:46:50.538657+00:00",
@@ -1250,7 +1406,11 @@
       "pm_home_price": "0.7050",
       "best_ev": "0.0136",
       "best_ev_team": "VAN",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T14:46:50.538663+00:00",
@@ -1266,7 +1426,11 @@
       "pm_home_price": "0.5250",
       "best_ev": "0.0229",
       "best_ev_team": "LAK",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T14:46:50.538668+00:00",
@@ -1282,7 +1446,11 @@
       "pm_home_price": "0.3650",
       "best_ev": "0.0063",
       "best_ev_team": "CAR",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T14:46:50.538674+00:00",
@@ -1298,7 +1466,11 @@
       "pm_home_price": "0.4350",
       "best_ev": "0.0159",
       "best_ev_team": "NYI",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T14:46:50.538680+00:00",
@@ -1314,7 +1486,11 @@
       "pm_home_price": "0.4050",
       "best_ev": "0.0864",
       "best_ev_team": "SEA",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T15:01:49.530193+00:00",
@@ -1330,7 +1506,11 @@
       "pm_home_price": "0.5450",
       "best_ev": "0.0484",
       "best_ev_team": "WSH",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T15:01:49.530210+00:00",
@@ -1346,7 +1526,11 @@
       "pm_home_price": "0.5950",
       "best_ev": "0.0067",
       "best_ev_team": "NJD",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T15:01:49.530219+00:00",
@@ -1362,7 +1546,11 @@
       "pm_home_price": "0.6350",
       "best_ev": "0.0466",
       "best_ev_team": "NSH",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T15:01:49.530224+00:00",
@@ -1378,7 +1566,11 @@
       "pm_home_price": "0.5550",
       "best_ev": "0.0613",
       "best_ev_team": "PIT",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T15:01:49.530230+00:00",
@@ -1394,7 +1586,11 @@
       "pm_home_price": "0.3650",
       "best_ev": "0.0329",
       "best_ev_team": "TOR",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T15:01:49.530236+00:00",
@@ -1410,7 +1606,11 @@
       "pm_home_price": "0.4750",
       "best_ev": "0.1011",
       "best_ev_team": "CBJ",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T15:01:49.530241+00:00",
@@ -1426,7 +1626,11 @@
       "pm_home_price": "0.7060",
       "best_ev": "0.0170",
       "best_ev_team": "VAN",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T15:01:49.530247+00:00",
@@ -1442,7 +1646,11 @@
       "pm_home_price": "0.5250",
       "best_ev": "0.0229",
       "best_ev_team": "LAK",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T15:01:49.530253+00:00",
@@ -1458,7 +1666,11 @@
       "pm_home_price": "0.3650",
       "best_ev": "0.0063",
       "best_ev_team": "CAR",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T15:01:49.530258+00:00",
@@ -1474,7 +1686,11 @@
       "pm_home_price": "0.4350",
       "best_ev": "0.0159",
       "best_ev_team": "NYI",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T15:01:49.530264+00:00",
@@ -1490,7 +1706,11 @@
       "pm_home_price": "0.4050",
       "best_ev": "0.0864",
       "best_ev_team": "SEA",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T15:16:50.233347+00:00",
@@ -1506,7 +1726,11 @@
       "pm_home_price": "0.5450",
       "best_ev": "0.0484",
       "best_ev_team": "WSH",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T15:16:50.233364+00:00",
@@ -1522,7 +1746,11 @@
       "pm_home_price": "0.5950",
       "best_ev": "0.0067",
       "best_ev_team": "NJD",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T15:16:50.233373+00:00",
@@ -1538,7 +1766,11 @@
       "pm_home_price": "0.6250",
       "best_ev": "0.0187",
       "best_ev_team": "NSH",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T15:16:50.233378+00:00",
@@ -1554,7 +1786,11 @@
       "pm_home_price": "0.5550",
       "best_ev": "0.0613",
       "best_ev_team": "PIT",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T15:16:50.233384+00:00",
@@ -1570,7 +1806,11 @@
       "pm_home_price": "0.3650",
       "best_ev": "0.0329",
       "best_ev_team": "TOR",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T15:16:50.233389+00:00",
@@ -1586,7 +1826,11 @@
       "pm_home_price": "0.4750",
       "best_ev": "0.1011",
       "best_ev_team": "CBJ",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T15:16:50.233394+00:00",
@@ -1602,7 +1846,11 @@
       "pm_home_price": "0.7070",
       "best_ev": "0.0205",
       "best_ev_team": "VAN",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T15:16:50.233399+00:00",
@@ -1618,7 +1866,11 @@
       "pm_home_price": "0.5250",
       "best_ev": "0.0229",
       "best_ev_team": "LAK",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T15:16:50.233405+00:00",
@@ -1634,7 +1886,11 @@
       "pm_home_price": "0.3650",
       "best_ev": "0.0063",
       "best_ev_team": "CAR",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T15:16:50.233411+00:00",
@@ -1650,7 +1906,11 @@
       "pm_home_price": "0.4350",
       "best_ev": "0.0159",
       "best_ev_team": "NYI",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T15:16:50.233416+00:00",
@@ -1666,7 +1926,11 @@
       "pm_home_price": "0.4050",
       "best_ev": "0.0864",
       "best_ev_team": "SEA",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T15:31:50.953427+00:00",
@@ -1682,7 +1946,11 @@
       "pm_home_price": "0.5450",
       "best_ev": "0.0484",
       "best_ev_team": "WSH",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T15:31:50.953444+00:00",
@@ -1698,7 +1966,11 @@
       "pm_home_price": "0.5950",
       "best_ev": "0.0067",
       "best_ev_team": "NJD",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T15:31:50.953451+00:00",
@@ -1714,7 +1986,11 @@
       "pm_home_price": "0.6250",
       "best_ev": "0.0187",
       "best_ev_team": "NSH",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T15:31:50.953457+00:00",
@@ -1730,7 +2006,11 @@
       "pm_home_price": "0.5550",
       "best_ev": "0.0613",
       "best_ev_team": "PIT",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T15:31:50.953463+00:00",
@@ -1746,7 +2026,11 @@
       "pm_home_price": "0.3750",
       "best_ev": "0.0053",
       "best_ev_team": "TOR",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T15:31:50.953468+00:00",
@@ -1762,7 +2046,11 @@
       "pm_home_price": "0.4850",
       "best_ev": "0.0784",
       "best_ev_team": "CBJ",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T15:31:50.953473+00:00",
@@ -1778,7 +2066,11 @@
       "pm_home_price": "0.7075",
       "best_ev": "0.0222",
       "best_ev_team": "VAN",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T15:31:50.953479+00:00",
@@ -1794,7 +2086,11 @@
       "pm_home_price": "0.5250",
       "best_ev": "0.0229",
       "best_ev_team": "LAK",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T15:31:50.953485+00:00",
@@ -1810,7 +2106,11 @@
       "pm_home_price": "0.3650",
       "best_ev": "0.0063",
       "best_ev_team": "CAR",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T15:31:50.953490+00:00",
@@ -1826,7 +2126,11 @@
       "pm_home_price": "0.4350",
       "best_ev": "0.0159",
       "best_ev_team": "NYI",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T15:31:50.953496+00:00",
@@ -1842,7 +2146,11 @@
       "pm_home_price": "0.4050",
       "best_ev": "0.0864",
       "best_ev_team": "SEA",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T15:46:50.145738+00:00",
@@ -1858,7 +2166,11 @@
       "pm_home_price": "0.5450",
       "best_ev": "0.0484",
       "best_ev_team": "WSH",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T15:46:50.145755+00:00",
@@ -1874,7 +2186,11 @@
       "pm_home_price": "0.5950",
       "best_ev": "0.0067",
       "best_ev_team": "NJD",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T15:46:50.145763+00:00",
@@ -1890,7 +2206,11 @@
       "pm_home_price": "0.6250",
       "best_ev": "0.0187",
       "best_ev_team": "NSH",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T15:46:50.145769+00:00",
@@ -1906,7 +2226,11 @@
       "pm_home_price": "0.5550",
       "best_ev": "0.0613",
       "best_ev_team": "PIT",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T15:46:50.145775+00:00",
@@ -1922,7 +2246,11 @@
       "pm_home_price": "0.3750",
       "best_ev": "0.0128",
       "best_ev_team": "TBL",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T15:46:50.145780+00:00",
@@ -1938,7 +2266,11 @@
       "pm_home_price": "0.4850",
       "best_ev": "0.0021",
       "best_ev_team": "CBJ",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T15:46:50.145785+00:00",
@@ -1954,7 +2286,11 @@
       "pm_home_price": "0.7075",
       "best_ev": "0.0148",
       "best_ev_team": "WPG",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T15:46:50.145790+00:00",
@@ -1970,7 +2306,11 @@
       "pm_home_price": "0.5250",
       "best_ev": "0.0229",
       "best_ev_team": "LAK",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T15:46:50.145796+00:00",
@@ -1986,7 +2326,11 @@
       "pm_home_price": "0.3650",
       "best_ev": "0.0063",
       "best_ev_team": "CAR",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T15:46:50.145802+00:00",
@@ -2002,7 +2346,11 @@
       "pm_home_price": "0.4350",
       "best_ev": "0.0159",
       "best_ev_team": "NYI",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T15:46:50.145807+00:00",
@@ -2018,7 +2366,11 @@
       "pm_home_price": "0.4050",
       "best_ev": "0.0864",
       "best_ev_team": "SEA",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T16:01:48.882602+00:00",
@@ -2034,7 +2386,11 @@
       "pm_home_price": "0.5450",
       "best_ev": "0.0484",
       "best_ev_team": "WSH",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T16:01:48.882620+00:00",
@@ -2050,7 +2406,11 @@
       "pm_home_price": "0.5850",
       "best_ev": "0.0239",
       "best_ev_team": "NJD",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T16:01:48.882628+00:00",
@@ -2066,7 +2426,11 @@
       "pm_home_price": "0.6250",
       "best_ev": "0.0187",
       "best_ev_team": "NSH",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T16:01:48.882633+00:00",
@@ -2082,7 +2446,11 @@
       "pm_home_price": "0.5550",
       "best_ev": "0.0613",
       "best_ev_team": "PIT",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T16:01:48.882639+00:00",
@@ -2098,7 +2466,11 @@
       "pm_home_price": "0.3750",
       "best_ev": "0.0128",
       "best_ev_team": "TBL",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T16:01:48.882644+00:00",
@@ -2114,7 +2486,11 @@
       "pm_home_price": "0.4850",
       "best_ev": "0.0021",
       "best_ev_team": "CBJ",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T16:01:48.882649+00:00",
@@ -2130,7 +2506,11 @@
       "pm_home_price": "0.7120",
       "best_ev": "0.0084",
       "best_ev_team": "WPG",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T16:01:48.882654+00:00",
@@ -2146,7 +2526,11 @@
       "pm_home_price": "0.5250",
       "best_ev": "0.0229",
       "best_ev_team": "LAK",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T16:01:48.882660+00:00",
@@ -2162,7 +2546,11 @@
       "pm_home_price": "0.3650",
       "best_ev": "0.0063",
       "best_ev_team": "CAR",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T16:01:48.882666+00:00",
@@ -2178,7 +2566,11 @@
       "pm_home_price": "0.4350",
       "best_ev": "0.0159",
       "best_ev_team": "NYI",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T16:01:48.882671+00:00",
@@ -2194,7 +2586,11 @@
       "pm_home_price": "0.4050",
       "best_ev": "0.0864",
       "best_ev_team": "SEA",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T16:16:51.079039+00:00",
@@ -2210,7 +2606,11 @@
       "pm_home_price": "0.5450",
       "best_ev": "0.0484",
       "best_ev_team": "WSH",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T16:16:51.079056+00:00",
@@ -2226,7 +2626,11 @@
       "pm_home_price": "0.5950",
       "best_ev": "0.0067",
       "best_ev_team": "NJD",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T16:16:51.079064+00:00",
@@ -2242,7 +2646,11 @@
       "pm_home_price": "0.6250",
       "best_ev": "0.0187",
       "best_ev_team": "NSH",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T16:16:51.079070+00:00",
@@ -2258,7 +2666,11 @@
       "pm_home_price": "0.5550",
       "best_ev": "0.0613",
       "best_ev_team": "PIT",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T16:16:51.079076+00:00",
@@ -2274,7 +2686,11 @@
       "pm_home_price": "0.3750",
       "best_ev": "0.0128",
       "best_ev_team": "TBL",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T16:16:51.079081+00:00",
@@ -2290,7 +2706,11 @@
       "pm_home_price": "0.4850",
       "best_ev": "0.0021",
       "best_ev_team": "CBJ",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T16:16:51.079086+00:00",
@@ -2306,7 +2726,11 @@
       "pm_home_price": "0.7130",
       "best_ev": "0.0070",
       "best_ev_team": "WPG",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T16:16:51.079091+00:00",
@@ -2322,7 +2746,11 @@
       "pm_home_price": "0.5250",
       "best_ev": "0.0229",
       "best_ev_team": "LAK",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T16:16:51.079097+00:00",
@@ -2338,7 +2766,11 @@
       "pm_home_price": "0.3650",
       "best_ev": "0.0063",
       "best_ev_team": "CAR",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T16:16:51.079102+00:00",
@@ -2354,7 +2786,11 @@
       "pm_home_price": "0.4350",
       "best_ev": "0.0159",
       "best_ev_team": "NYI",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T16:16:51.079107+00:00",
@@ -2370,7 +2806,11 @@
       "pm_home_price": "0.4050",
       "best_ev": "0.0864",
       "best_ev_team": "SEA",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T16:31:49.997044+00:00",
@@ -2386,7 +2826,11 @@
       "pm_home_price": "0.5450",
       "best_ev": "0.0022",
       "best_ev_team": "WSH",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T16:31:49.997061+00:00",
@@ -2402,7 +2846,11 @@
       "pm_home_price": "0.5850",
       "best_ev": "0.0239",
       "best_ev_team": "NJD",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T16:31:49.997069+00:00",
@@ -2418,7 +2866,11 @@
       "pm_home_price": "0.6250",
       "best_ev": "0.0187",
       "best_ev_team": "NSH",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T16:31:49.997074+00:00",
@@ -2434,7 +2886,11 @@
       "pm_home_price": "0.5550",
       "best_ev": "0.0613",
       "best_ev_team": "PIT",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T16:31:49.997080+00:00",
@@ -2450,7 +2906,11 @@
       "pm_home_price": "0.3750",
       "best_ev": "0.0128",
       "best_ev_team": "TBL",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T16:31:49.997088+00:00",
@@ -2466,7 +2926,11 @@
       "pm_home_price": "0.4850",
       "best_ev": "0.0021",
       "best_ev_team": "CBJ",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T16:31:49.997093+00:00",
@@ -2482,7 +2946,11 @@
       "pm_home_price": "0.7125",
       "best_ev": "0.0077",
       "best_ev_team": "WPG",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T16:31:49.997099+00:00",
@@ -2498,7 +2966,11 @@
       "pm_home_price": "0.5250",
       "best_ev": "0.0229",
       "best_ev_team": "LAK",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T16:31:49.997155+00:00",
@@ -2514,7 +2986,11 @@
       "pm_home_price": "0.3650",
       "best_ev": "0.0063",
       "best_ev_team": "CAR",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T16:31:49.997177+00:00",
@@ -2530,7 +3006,11 @@
       "pm_home_price": "0.4350",
       "best_ev": "0.0159",
       "best_ev_team": "NYI",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T16:31:49.997209+00:00",
@@ -2546,7 +3026,11 @@
       "pm_home_price": "0.4050",
       "best_ev": "0.0864",
       "best_ev_team": "SEA",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T16:46:50.917702+00:00",
@@ -2562,7 +3046,11 @@
       "pm_home_price": "0.5450",
       "best_ev": "0.0022",
       "best_ev_team": "WSH",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T16:46:50.917720+00:00",
@@ -2578,7 +3066,11 @@
       "pm_home_price": "0.5850",
       "best_ev": "0.0239",
       "best_ev_team": "NJD",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T16:46:50.917728+00:00",
@@ -2594,7 +3086,11 @@
       "pm_home_price": "0.6250",
       "best_ev": "0.0187",
       "best_ev_team": "NSH",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T16:46:50.917733+00:00",
@@ -2610,7 +3106,11 @@
       "pm_home_price": "0.5550",
       "best_ev": "0.0613",
       "best_ev_team": "PIT",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T16:46:50.917739+00:00",
@@ -2626,7 +3126,11 @@
       "pm_home_price": "0.3750",
       "best_ev": "0.0128",
       "best_ev_team": "TBL",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T16:46:50.917744+00:00",
@@ -2642,7 +3146,11 @@
       "pm_home_price": "0.4850",
       "best_ev": "0.0021",
       "best_ev_team": "CBJ",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T16:46:50.917749+00:00",
@@ -2658,7 +3166,11 @@
       "pm_home_price": "0.7125",
       "best_ev": "0.0077",
       "best_ev_team": "WPG",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T16:46:50.917755+00:00",
@@ -2674,7 +3186,11 @@
       "pm_home_price": "0.5250",
       "best_ev": "0.0229",
       "best_ev_team": "LAK",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T16:46:50.917761+00:00",
@@ -2690,7 +3206,11 @@
       "pm_home_price": "0.3650",
       "best_ev": "0.0063",
       "best_ev_team": "CAR",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T16:46:50.917767+00:00",
@@ -2706,7 +3226,11 @@
       "pm_home_price": "0.4350",
       "best_ev": "0.0159",
       "best_ev_team": "NYI",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T16:46:50.917773+00:00",
@@ -2722,7 +3246,11 @@
       "pm_home_price": "0.4050",
       "best_ev": "0.0864",
       "best_ev_team": "SEA",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T17:01:49.678885+00:00",
@@ -2738,7 +3266,11 @@
       "pm_home_price": "0.5450",
       "best_ev": "0.0022",
       "best_ev_team": "WSH",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T17:01:49.678949+00:00",
@@ -2754,7 +3286,11 @@
       "pm_home_price": "0.5850",
       "best_ev": "0.0239",
       "best_ev_team": "NJD",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T17:01:49.678984+00:00",
@@ -2770,7 +3306,11 @@
       "pm_home_price": "0.6250",
       "best_ev": "0.0187",
       "best_ev_team": "NSH",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T17:01:49.679010+00:00",
@@ -2786,7 +3326,11 @@
       "pm_home_price": "0.5550",
       "best_ev": "0.0613",
       "best_ev_team": "PIT",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T17:01:49.679036+00:00",
@@ -2802,7 +3346,11 @@
       "pm_home_price": "0.3550",
       "best_ev": "0.0000",
       "best_ev_team": "TBL",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T17:01:49.679061+00:00",
@@ -2818,7 +3366,11 @@
       "pm_home_price": "0.4850",
       "best_ev": "0.0021",
       "best_ev_team": "CBJ",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T17:01:49.679083+00:00",
@@ -2834,7 +3386,11 @@
       "pm_home_price": "0.7120",
       "best_ev": "0.0084",
       "best_ev_team": "WPG",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T17:01:49.679107+00:00",
@@ -2850,7 +3406,11 @@
       "pm_home_price": "0.5250",
       "best_ev": "0.0229",
       "best_ev_team": "LAK",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T17:01:49.679134+00:00",
@@ -2866,7 +3426,11 @@
       "pm_home_price": "0.3650",
       "best_ev": "0.0063",
       "best_ev_team": "CAR",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T17:01:49.679160+00:00",
@@ -2882,7 +3446,11 @@
       "pm_home_price": "0.4350",
       "best_ev": "0.0159",
       "best_ev_team": "NYI",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T17:01:49.679184+00:00",
@@ -2898,7 +3466,11 @@
       "pm_home_price": "0.4050",
       "best_ev": "0.0864",
       "best_ev_team": "SEA",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T17:16:49.409932+00:00",
@@ -2914,7 +3486,11 @@
       "pm_home_price": "0.5450",
       "best_ev": "0.0022",
       "best_ev_team": "WSH",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T17:16:49.409948+00:00",
@@ -2930,7 +3506,11 @@
       "pm_home_price": "0.5850",
       "best_ev": "0.0239",
       "best_ev_team": "NJD",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T17:16:49.409957+00:00",
@@ -2946,7 +3526,11 @@
       "pm_home_price": "0.6250",
       "best_ev": "0.0187",
       "best_ev_team": "NSH",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T17:16:49.409963+00:00",
@@ -2962,7 +3546,11 @@
       "pm_home_price": "0.5550",
       "best_ev": "0.0613",
       "best_ev_team": "PIT",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T17:16:49.409969+00:00",
@@ -2978,7 +3566,11 @@
       "pm_home_price": "0.3450",
       "best_ev": "0.0087",
       "best_ev_team": "TOR",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T17:16:49.409974+00:00",
@@ -2994,7 +3586,11 @@
       "pm_home_price": "0.4850",
       "best_ev": "0.0021",
       "best_ev_team": "CBJ",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T17:16:49.409978+00:00",
@@ -3010,7 +3606,11 @@
       "pm_home_price": "0.7120",
       "best_ev": "0.0084",
       "best_ev_team": "WPG",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T17:16:49.409983+00:00",
@@ -3026,7 +3626,11 @@
       "pm_home_price": "0.5250",
       "best_ev": "0.0229",
       "best_ev_team": "LAK",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T17:16:49.409989+00:00",
@@ -3042,7 +3646,11 @@
       "pm_home_price": "0.3650",
       "best_ev": "0.0063",
       "best_ev_team": "CAR",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T17:16:49.409995+00:00",
@@ -3058,7 +3666,11 @@
       "pm_home_price": "0.4350",
       "best_ev": "0.0159",
       "best_ev_team": "NYI",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T17:16:49.410000+00:00",
@@ -3074,7 +3686,11 @@
       "pm_home_price": "0.4050",
       "best_ev": "0.0864",
       "best_ev_team": "SEA",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T17:31:49.574048+00:00",
@@ -3090,7 +3706,11 @@
       "pm_home_price": "0.5350",
       "best_ev": "0.0168",
       "best_ev_team": "BOS",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T17:31:49.574071+00:00",
@@ -3106,7 +3726,11 @@
       "pm_home_price": "0.5850",
       "best_ev": "0.0239",
       "best_ev_team": "NJD",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T17:31:49.574083+00:00",
@@ -3122,7 +3746,11 @@
       "pm_home_price": "0.6250",
       "best_ev": "0.0187",
       "best_ev_team": "NSH",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T17:31:49.574091+00:00",
@@ -3138,7 +3766,11 @@
       "pm_home_price": "0.5550",
       "best_ev": "0.0613",
       "best_ev_team": "PIT",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T17:31:49.574100+00:00",
@@ -3154,7 +3786,11 @@
       "pm_home_price": "0.3450",
       "best_ev": "0.0087",
       "best_ev_team": "TOR",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T17:31:49.574108+00:00",
@@ -3170,7 +3806,11 @@
       "pm_home_price": "0.4750",
       "best_ev": "0.0210",
       "best_ev_team": "UTA",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T17:31:49.574115+00:00",
@@ -3186,7 +3826,11 @@
       "pm_home_price": "0.7150",
       "best_ev": "0.0042",
       "best_ev_team": "WPG",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T17:31:49.574122+00:00",
@@ -3202,7 +3846,11 @@
       "pm_home_price": "0.5250",
       "best_ev": "0.0229",
       "best_ev_team": "LAK",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T17:31:49.574130+00:00",
@@ -3218,7 +3866,11 @@
       "pm_home_price": "0.3650",
       "best_ev": "0.0457",
       "best_ev_team": "CAR",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T17:31:49.574140+00:00",
@@ -3234,7 +3886,11 @@
       "pm_home_price": "0.4350",
       "best_ev": "0.0159",
       "best_ev_team": "NYI",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T17:31:49.574148+00:00",
@@ -3250,7 +3906,11 @@
       "pm_home_price": "0.4050",
       "best_ev": "0.0864",
       "best_ev_team": "SEA",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T17:46:41.919594+00:00",
@@ -3266,7 +3926,11 @@
       "pm_home_price": "0.5850",
       "best_ev": "0.0239",
       "best_ev_team": "NJD",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T17:46:41.919629+00:00",
@@ -3282,7 +3946,11 @@
       "pm_home_price": "0.6250",
       "best_ev": "0.0187",
       "best_ev_team": "NSH",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T17:46:41.919647+00:00",
@@ -3298,7 +3966,11 @@
       "pm_home_price": "0.5650",
       "best_ev": "0.0425",
       "best_ev_team": "PIT",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T17:46:41.919662+00:00",
@@ -3314,7 +3986,11 @@
       "pm_home_price": "0.3450",
       "best_ev": "0.0087",
       "best_ev_team": "TOR",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T17:46:41.919674+00:00",
@@ -3330,7 +4006,11 @@
       "pm_home_price": "0.4750",
       "best_ev": "0.0210",
       "best_ev_team": "UTA",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T17:46:41.919687+00:00",
@@ -3346,7 +4026,11 @@
       "pm_home_price": "0.7170",
       "best_ev": "0.0014",
       "best_ev_team": "WPG",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T17:46:41.919699+00:00",
@@ -3362,7 +4046,11 @@
       "pm_home_price": "0.5250",
       "best_ev": "0.0229",
       "best_ev_team": "LAK",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T17:46:41.919713+00:00",
@@ -3378,7 +4066,11 @@
       "pm_home_price": "0.3650",
       "best_ev": "0.0457",
       "best_ev_team": "CAR",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T17:46:41.919727+00:00",
@@ -3394,7 +4086,11 @@
       "pm_home_price": "0.4350",
       "best_ev": "0.0159",
       "best_ev_team": "NYI",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T17:46:41.919740+00:00",
@@ -3410,7 +4106,11 @@
       "pm_home_price": "0.4050",
       "best_ev": "0.0864",
       "best_ev_team": "SEA",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T18:01:46.483215+00:00",
@@ -3426,7 +4126,11 @@
       "pm_home_price": "0.6050",
       "best_ev": "0.0231",
       "best_ev_team": "NJD",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T18:01:46.483270+00:00",
@@ -3442,7 +4146,11 @@
       "pm_home_price": "0.6250",
       "best_ev": "0.0187",
       "best_ev_team": "NSH",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T18:01:46.483295+00:00",
@@ -3458,7 +4166,11 @@
       "pm_home_price": "0.5600",
       "best_ev": "0.0518",
       "best_ev_team": "PIT",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T18:01:46.483314+00:00",
@@ -3474,7 +4186,11 @@
       "pm_home_price": "0.3450",
       "best_ev": "0.0087",
       "best_ev_team": "TOR",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T18:01:46.483329+00:00",
@@ -3490,7 +4206,11 @@
       "pm_home_price": "0.4750",
       "best_ev": "0.0210",
       "best_ev_team": "UTA",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T18:01:46.483346+00:00",
@@ -3506,7 +4226,11 @@
       "pm_home_price": "0.7185",
       "best_ev": "0.0018",
       "best_ev_team": "VAN",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T18:01:46.483362+00:00",
@@ -3522,7 +4246,11 @@
       "pm_home_price": "0.5250",
       "best_ev": "0.0229",
       "best_ev_team": "LAK",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T18:01:46.483379+00:00",
@@ -3538,7 +4266,11 @@
       "pm_home_price": "0.3550",
       "best_ev": "0.0295",
       "best_ev_team": "CAR",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T18:01:46.483399+00:00",
@@ -3554,7 +4286,11 @@
       "pm_home_price": "0.4350",
       "best_ev": "0.0159",
       "best_ev_team": "NYI",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T18:01:46.483415+00:00",
@@ -3570,7 +4306,11 @@
       "pm_home_price": "0.4050",
       "best_ev": "0.0864",
       "best_ev_team": "SEA",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T18:08:37.694374+00:00",
@@ -3586,7 +4326,11 @@
       "pm_home_price": "0.6050",
       "best_ev": "0.0231",
       "best_ev_team": "NJD",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T18:08:37.694403+00:00",
@@ -3602,7 +4346,11 @@
       "pm_home_price": "0.6250",
       "best_ev": "0.0187",
       "best_ev_team": "NSH",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T18:08:37.694420+00:00",
@@ -3618,7 +4366,11 @@
       "pm_home_price": "0.5600",
       "best_ev": "0.0518",
       "best_ev_team": "PIT",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T18:08:37.694434+00:00",
@@ -3634,7 +4386,11 @@
       "pm_home_price": "0.3450",
       "best_ev": "0.0087",
       "best_ev_team": "TOR",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T18:08:37.694447+00:00",
@@ -3650,7 +4406,11 @@
       "pm_home_price": "0.4750",
       "best_ev": "0.0210",
       "best_ev_team": "UTA",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T18:08:37.694459+00:00",
@@ -3666,7 +4426,11 @@
       "pm_home_price": "0.7175",
       "best_ev": "0.0007",
       "best_ev_team": "WPG",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T18:08:37.694471+00:00",
@@ -3682,7 +4446,11 @@
       "pm_home_price": "0.5250",
       "best_ev": "0.0229",
       "best_ev_team": "LAK",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T18:08:37.694484+00:00",
@@ -3698,7 +4466,11 @@
       "pm_home_price": "0.3550",
       "best_ev": "0.0295",
       "best_ev_team": "CAR",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T18:08:37.694496+00:00",
@@ -3714,7 +4486,11 @@
       "pm_home_price": "0.4350",
       "best_ev": "0.0159",
       "best_ev_team": "NYI",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
     },
     {
       "timestamp": "2026-03-07T18:08:37.694508+00:00",
@@ -3730,14 +4506,218 @@
       "pm_home_price": "0.4050",
       "best_ev": "0.0864",
       "best_ev_team": "SEA",
-      "bet_placed": "NO"
+      "bet_placed": "NO",
+      "winner": "",
+      "away_score": "",
+      "home_score": "",
+      "result_updated": ""
+    },
+    {
+      "timestamp": "2026-03-07T18:31:42.110805+00:00",
+      "game_date": "2026-03-07",
+      "game_id": "2025020991",
+      "away": "NYR",
+      "home": "NJD",
+      "mp_away_prob": "0.3830",
+      "mp_home_prob": "0.6170",
+      "goalies_confirmed": "True",
+      "confirmed_count": "2",
+      "pm_away_price": "0.3950",
+      "pm_home_price": "0.6050",
+      "best_ev": "0.0198",
+      "best_ev_team": "NJD",
+      "bet_placed": "NO",
+      "winner": null,
+      "away_score": null,
+      "home_score": null,
+      "result_updated": null
+    },
+    {
+      "timestamp": "2026-03-07T18:31:42.110827+00:00",
+      "game_date": "2026-03-07",
+      "game_id": "2025020992",
+      "away": "NSH",
+      "home": "BUF",
+      "mp_away_prob": "0.3820",
+      "mp_home_prob": "0.6180",
+      "goalies_confirmed": "False",
+      "confirmed_count": "0",
+      "pm_away_price": "0.3750",
+      "pm_home_price": "0.6250",
+      "best_ev": "0.0187",
+      "best_ev_team": "NSH",
+      "bet_placed": "NO",
+      "winner": null,
+      "away_score": null,
+      "home_score": null,
+      "result_updated": null
+    },
+    {
+      "timestamp": "2026-03-07T18:31:42.110839+00:00",
+      "game_date": "2026-03-07",
+      "game_id": "2025020993",
+      "away": "PHI",
+      "home": "PIT",
+      "mp_away_prob": "0.4110",
+      "mp_home_prob": "0.5890",
+      "goalies_confirmed": "False",
+      "confirmed_count": "0",
+      "pm_away_price": "0.4400",
+      "pm_home_price": "0.5600",
+      "best_ev": "0.0518",
+      "best_ev_team": "PIT",
+      "bet_placed": "NO",
+      "winner": null,
+      "away_score": null,
+      "home_score": null,
+      "result_updated": null
+    },
+    {
+      "timestamp": "2026-03-07T18:31:42.110846+00:00",
+      "game_date": "2026-03-07",
+      "game_id": "2025020994",
+      "away": "TBL",
+      "home": "TOR",
+      "mp_away_prob": "0.6520",
+      "mp_home_prob": "0.3480",
+      "goalies_confirmed": "True",
+      "confirmed_count": "2",
+      "pm_away_price": "0.6550",
+      "pm_home_price": "0.3450",
+      "best_ev": "0.0087",
+      "best_ev_team": "TOR",
+      "bet_placed": "NO",
+      "winner": null,
+      "away_score": null,
+      "home_score": null,
+      "result_updated": null
+    },
+    {
+      "timestamp": "2026-03-07T18:31:42.110856+00:00",
+      "game_date": "2026-03-07",
+      "game_id": "2025020995",
+      "away": "UTA",
+      "home": "CBJ",
+      "mp_away_prob": "0.5360",
+      "mp_home_prob": "0.4640",
+      "goalies_confirmed": "True",
+      "confirmed_count": "2",
+      "pm_away_price": "0.5250",
+      "pm_home_price": "0.4750",
+      "best_ev": "0.0210",
+      "best_ev_team": "UTA",
+      "bet_placed": "NO",
+      "winner": null,
+      "away_score": null,
+      "home_score": null,
+      "result_updated": null
+    },
+    {
+      "timestamp": "2026-03-07T18:31:42.110871+00:00",
+      "game_date": "2026-03-07",
+      "game_id": "2025020996",
+      "away": "VAN",
+      "home": "WPG",
+      "mp_away_prob": "0.2820",
+      "mp_home_prob": "0.7180",
+      "goalies_confirmed": "False",
+      "confirmed_count": "1",
+      "pm_away_price": "0.2780",
+      "pm_home_price": "0.7220",
+      "best_ev": "0.0144",
+      "best_ev_team": "VAN",
+      "bet_placed": "NO",
+      "winner": null,
+      "away_score": null,
+      "home_score": null,
+      "result_updated": null
+    },
+    {
+      "timestamp": "2026-03-07T18:31:42.110887+00:00",
+      "game_date": "2026-03-07",
+      "game_id": "2025020997",
+      "away": "MTL",
+      "home": "LAK",
+      "mp_away_prob": "0.4630",
+      "mp_home_prob": "0.5370",
+      "goalies_confirmed": "False",
+      "confirmed_count": "0",
+      "pm_away_price": "0.4750",
+      "pm_home_price": "0.5250",
+      "best_ev": "0.0229",
+      "best_ev_team": "LAK",
+      "bet_placed": "NO",
+      "winner": null,
+      "away_score": null,
+      "home_score": null,
+      "result_updated": null
+    },
+    {
+      "timestamp": "2026-03-07T18:31:42.110905+00:00",
+      "game_date": "2026-03-07",
+      "game_id": "2025020998",
+      "away": "CAR",
+      "home": "CGY",
+      "mp_away_prob": "0.6640",
+      "mp_home_prob": "0.3360",
+      "goalies_confirmed": "False",
+      "confirmed_count": "1",
+      "pm_away_price": "0.6450",
+      "pm_home_price": "0.3550",
+      "best_ev": "0.0295",
+      "best_ev_team": "CAR",
+      "bet_placed": "NO",
+      "winner": null,
+      "away_score": null,
+      "home_score": null,
+      "result_updated": null
+    },
+    {
+      "timestamp": "2026-03-07T18:31:42.110921+00:00",
+      "game_date": "2026-03-07",
+      "game_id": "2025020999",
+      "away": "NYI",
+      "home": "SJS",
+      "mp_away_prob": "0.5740",
+      "mp_home_prob": "0.4260",
+      "goalies_confirmed": "False",
+      "confirmed_count": "0",
+      "pm_away_price": "0.5650",
+      "pm_home_price": "0.4350",
+      "best_ev": "0.0159",
+      "best_ev_team": "NYI",
+      "bet_placed": "NO",
+      "winner": null,
+      "away_score": null,
+      "home_score": null,
+      "result_updated": null
+    },
+    {
+      "timestamp": "2026-03-07T18:31:42.111099+00:00",
+      "game_date": "2026-03-07",
+      "game_id": "2025021000",
+      "away": "OTT",
+      "home": "SEA",
+      "mp_away_prob": "0.5600",
+      "mp_home_prob": "0.4400",
+      "goalies_confirmed": "False",
+      "confirmed_count": "0",
+      "pm_away_price": "0.5950",
+      "pm_home_price": "0.4050",
+      "best_ev": "0.0864",
+      "best_ev_team": "SEA",
+      "bet_placed": "NO",
+      "winner": null,
+      "away_score": null,
+      "home_score": null,
+      "result_updated": null
     }
   ],
   "stats": {
     "total_bets_today": 0,
     "total_bets_all_time": 23,
-    "total_games_scanned_today": 195,
-    "total_games_scanned_all": 2050,
-    "runs_today": 19
+    "total_games_scanned_today": 205,
+    "total_games_scanned_all": 2060,
+    "runs_today": 20
   }
 }
