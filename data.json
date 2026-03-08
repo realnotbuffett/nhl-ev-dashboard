@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-08T01:15:37.105432+00:00",
+  "last_updated": "2026-03-08T01:30:36.072944+00:00",
   "scoreboard": [
     {
       "game_id": 2025020990,
@@ -38,11 +38,11 @@
       "game_id": 2025020993,
       "away": "PHI",
       "home": "PIT",
-      "away_score": 3,
+      "away_score": 4,
       "home_score": 3,
-      "state": "CRIT",
-      "period": 3,
-      "period_type": "REG",
+      "state": "FINAL",
+      "period": 5,
+      "period_type": "SO",
       "start_time": "2026-03-07T22:30:00Z"
     },
     {
@@ -465,7 +465,7 @@
   ],
   "all_games": [
     {
-      "timestamp": "2026-03-08T01:15:37.078650+00:00",
+      "timestamp": "2026-03-08T01:30:36.048920+00:00",
       "game_date": "2026-03-07",
       "game_id": "2025020998",
       "away": "CAR",
@@ -481,7 +481,7 @@
       "bet_placed": "NO"
     },
     {
-      "timestamp": "2026-03-08T01:15:37.078672+00:00",
+      "timestamp": "2026-03-08T01:30:36.048938+00:00",
       "game_date": "2026-03-07",
       "game_id": "2025020999",
       "away": "NYI",
@@ -497,7 +497,7 @@
       "bet_placed": "NO"
     },
     {
-      "timestamp": "2026-03-08T01:15:37.078681+00:00",
+      "timestamp": "2026-03-08T01:30:36.048946+00:00",
       "game_date": "2026-03-07",
       "game_id": "2025021000",
       "away": "OTT",
@@ -8513,13 +8513,73 @@
       "away_score": null,
       "home_score": null,
       "result_updated": null
+    },
+    {
+      "timestamp": "2026-03-08T01:30:36.048920+00:00",
+      "game_date": "2026-03-07",
+      "game_id": "2025020998",
+      "away": "CAR",
+      "home": "CGY",
+      "mp_away_prob": "0.6530",
+      "mp_home_prob": "0.3470",
+      "goalies_confirmed": "False",
+      "confirmed_count": "1",
+      "pm_away_price": "0.6450",
+      "pm_home_price": "0.3550",
+      "best_ev": "0.0124",
+      "best_ev_team": "CAR",
+      "bet_placed": "NO",
+      "winner": null,
+      "away_score": null,
+      "home_score": null,
+      "result_updated": null
+    },
+    {
+      "timestamp": "2026-03-08T01:30:36.048938+00:00",
+      "game_date": "2026-03-07",
+      "game_id": "2025020999",
+      "away": "NYI",
+      "home": "SJS",
+      "mp_away_prob": "0.5730",
+      "mp_home_prob": "0.4270",
+      "goalies_confirmed": "False",
+      "confirmed_count": "1",
+      "pm_away_price": "0.5550",
+      "pm_home_price": "0.4450",
+      "best_ev": "0.0324",
+      "best_ev_team": "NYI",
+      "bet_placed": "NO",
+      "winner": null,
+      "away_score": null,
+      "home_score": null,
+      "result_updated": null
+    },
+    {
+      "timestamp": "2026-03-08T01:30:36.048946+00:00",
+      "game_date": "2026-03-07",
+      "game_id": "2025021000",
+      "away": "OTT",
+      "home": "SEA",
+      "mp_away_prob": "0.5670",
+      "mp_home_prob": "0.4330",
+      "goalies_confirmed": "False",
+      "confirmed_count": "1",
+      "pm_away_price": "0.5950",
+      "pm_home_price": "0.4050",
+      "best_ev": "0.0691",
+      "best_ev_team": "SEA",
+      "bet_placed": "NO",
+      "winner": null,
+      "away_score": null,
+      "home_score": null,
+      "result_updated": null
     }
   ],
   "stats": {
     "total_bets_today": 1,
     "total_bets_all_time": 24,
-    "total_games_scanned_today": 400,
-    "total_games_scanned_all": 2255,
-    "runs_today": 47
+    "total_games_scanned_today": 403,
+    "total_games_scanned_all": 2258,
+    "runs_today": 48
   }
 }
