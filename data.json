@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-08T03:15:03.437093+00:00",
+  "last_updated": "2026-03-08T03:30:03.297780+00:00",
   "scoreboard": [
     {
       "game_id": 2025020990,
@@ -51,7 +51,7 @@
       "home": "TOR",
       "away_score": 5,
       "home_score": 2,
-      "state": "FINAL",
+      "state": "OFF",
       "period": 3,
       "period_type": "REG",
       "start_time": "2026-03-08T00:00:00Z"
@@ -73,7 +73,7 @@
       "home": "WPG",
       "away_score": 2,
       "home_score": 3,
-      "state": "FINAL",
+      "state": "OFF",
       "period": 4,
       "period_type": "OT",
       "start_time": "2026-03-08T00:00:00Z"
@@ -84,7 +84,7 @@
       "home": "LAK",
       "away_score": 4,
       "home_score": 3,
-      "state": "FINAL",
+      "state": "OFF",
       "period": 3,
       "period_type": "REG",
       "start_time": "2026-03-08T00:00:00Z"
@@ -104,7 +104,7 @@
       "game_id": 2025020999,
       "away": "NYI",
       "home": "SJS",
-      "away_score": 0,
+      "away_score": 1,
       "home_score": 0,
       "state": "LIVE",
       "period": 1,
@@ -115,8 +115,8 @@
       "game_id": 2025021000,
       "away": "OTT",
       "home": "SEA",
-      "away_score": 0,
-      "home_score": 0,
+      "away_score": 1,
+      "home_score": 1,
       "state": "LIVE",
       "period": 1,
       "period_type": "REG",
