@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-08T03:30:03.297780+00:00",
+  "last_updated": "2026-03-08T03:45:03.583098+00:00",
   "scoreboard": [
     {
       "game_id": 2025020990,
@@ -62,7 +62,7 @@
       "home": "CBJ",
       "away_score": 5,
       "home_score": 4,
-      "state": "FINAL",
+      "state": "OFF",
       "period": 4,
       "period_type": "OT",
       "start_time": "2026-03-08T00:00:00Z"
@@ -115,7 +115,7 @@
       "game_id": 2025021000,
       "away": "OTT",
       "home": "SEA",
-      "away_score": 1,
+      "away_score": 2,
       "home_score": 1,
       "state": "LIVE",
       "period": 1,
