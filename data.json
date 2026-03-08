@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-08T01:30:36.072944+00:00",
+  "last_updated": "2026-03-08T01:45:36.729499+00:00",
   "scoreboard": [
     {
       "game_id": 2025020990,
@@ -29,7 +29,7 @@
       "home": "BUF",
       "away_score": 2,
       "home_score": 3,
-      "state": "FINAL",
+      "state": "OFF",
       "period": 3,
       "period_type": "REG",
       "start_time": "2026-03-07T22:30:00Z"
@@ -60,8 +60,8 @@
       "game_id": 2025020995,
       "away": "UTA",
       "home": "CBJ",
-      "away_score": 1,
-      "home_score": 1,
+      "away_score": 2,
+      "home_score": 2,
       "state": "LIVE",
       "period": 2,
       "period_type": "REG",
@@ -72,7 +72,7 @@
       "away": "VAN",
       "home": "WPG",
       "away_score": 1,
-      "home_score": 0,
+      "home_score": 1,
       "state": "LIVE",
       "period": 2,
       "period_type": "REG",
@@ -82,8 +82,8 @@
       "game_id": 2025020997,
       "away": "MTL",
       "home": "LAK",
-      "away_score": 1,
-      "home_score": 1,
+      "away_score": 2,
+      "home_score": 2,
       "state": "LIVE",
       "period": 2,
       "period_type": "REG",
@@ -465,7 +465,7 @@
   ],
   "all_games": [
     {
-      "timestamp": "2026-03-08T01:30:36.048920+00:00",
+      "timestamp": "2026-03-08T01:45:36.705868+00:00",
       "game_date": "2026-03-07",
       "game_id": "2025020998",
       "away": "CAR",
@@ -481,7 +481,7 @@
       "bet_placed": "NO"
     },
     {
-      "timestamp": "2026-03-08T01:30:36.048938+00:00",
+      "timestamp": "2026-03-08T01:45:36.705886+00:00",
       "game_date": "2026-03-07",
       "game_id": "2025020999",
       "away": "NYI",
@@ -497,7 +497,7 @@
       "bet_placed": "NO"
     },
     {
-      "timestamp": "2026-03-08T01:30:36.048946+00:00",
+      "timestamp": "2026-03-08T01:45:36.705895+00:00",
       "game_date": "2026-03-07",
       "game_id": "2025021000",
       "away": "OTT",
@@ -506,9 +506,9 @@
       "mp_home_prob": "0.4330",
       "goalies_confirmed": "False",
       "confirmed_count": "1",
-      "pm_away_price": "0.5950",
-      "pm_home_price": "0.4050",
-      "best_ev": "0.0691",
+      "pm_away_price": "0.6050",
+      "pm_home_price": "0.3950",
+      "best_ev": "0.0962",
       "best_ev_team": "SEA",
       "bet_placed": "NO"
     }
@@ -8573,13 +8573,73 @@
       "away_score": null,
       "home_score": null,
       "result_updated": null
+    },
+    {
+      "timestamp": "2026-03-08T01:45:36.705868+00:00",
+      "game_date": "2026-03-07",
+      "game_id": "2025020998",
+      "away": "CAR",
+      "home": "CGY",
+      "mp_away_prob": "0.6530",
+      "mp_home_prob": "0.3470",
+      "goalies_confirmed": "False",
+      "confirmed_count": "1",
+      "pm_away_price": "0.6450",
+      "pm_home_price": "0.3550",
+      "best_ev": "0.0124",
+      "best_ev_team": "CAR",
+      "bet_placed": "NO",
+      "winner": null,
+      "away_score": null,
+      "home_score": null,
+      "result_updated": null
+    },
+    {
+      "timestamp": "2026-03-08T01:45:36.705886+00:00",
+      "game_date": "2026-03-07",
+      "game_id": "2025020999",
+      "away": "NYI",
+      "home": "SJS",
+      "mp_away_prob": "0.5730",
+      "mp_home_prob": "0.4270",
+      "goalies_confirmed": "False",
+      "confirmed_count": "1",
+      "pm_away_price": "0.5550",
+      "pm_home_price": "0.4450",
+      "best_ev": "0.0324",
+      "best_ev_team": "NYI",
+      "bet_placed": "NO",
+      "winner": null,
+      "away_score": null,
+      "home_score": null,
+      "result_updated": null
+    },
+    {
+      "timestamp": "2026-03-08T01:45:36.705895+00:00",
+      "game_date": "2026-03-07",
+      "game_id": "2025021000",
+      "away": "OTT",
+      "home": "SEA",
+      "mp_away_prob": "0.5670",
+      "mp_home_prob": "0.4330",
+      "goalies_confirmed": "False",
+      "confirmed_count": "1",
+      "pm_away_price": "0.6050",
+      "pm_home_price": "0.3950",
+      "best_ev": "0.0962",
+      "best_ev_team": "SEA",
+      "bet_placed": "NO",
+      "winner": null,
+      "away_score": null,
+      "home_score": null,
+      "result_updated": null
     }
   ],
   "stats": {
     "total_bets_today": 1,
     "total_bets_all_time": 24,
-    "total_games_scanned_today": 403,
-    "total_games_scanned_all": 2258,
-    "runs_today": 48
+    "total_games_scanned_today": 406,
+    "total_games_scanned_all": 2261,
+    "runs_today": 49
   }
 }
