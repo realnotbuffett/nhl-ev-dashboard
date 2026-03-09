@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-09T00:45:28.119841+00:00",
+  "last_updated": "2026-03-09T01:00:28.009290+00:00",
   "scoreboard": [
     {
       "game_id": 2025021001,
@@ -28,8 +28,8 @@
       "away": "TBL",
       "home": "BUF",
       "away_score": 7,
-      "home_score": 5,
-      "state": "LIVE",
+      "home_score": 8,
+      "state": "CRIT",
       "period": 3,
       "period_type": "REG",
       "start_time": "2026-03-08T22:00:00Z"
@@ -52,7 +52,7 @@
       "away_score": 2,
       "home_score": 0,
       "state": "LIVE",
-      "period": 2,
+      "period": 3,
       "period_type": "REG",
       "start_time": "2026-03-08T23:00:00Z"
     },
@@ -73,7 +73,7 @@
       "home": "VGK",
       "away_score": null,
       "home_score": null,
-      "state": "FUT",
+      "state": "PRE",
       "period": 1,
       "period_type": "REG",
       "start_time": "2026-03-09T01:30:00Z"
@@ -477,7 +477,7 @@
   ],
   "all_games": [
     {
-      "timestamp": "2026-03-09T00:45:28.094441+00:00",
+      "timestamp": "2026-03-09T01:00:27.965276+00:00",
       "game_date": "2026-03-08",
       "game_id": "2025021006",
       "away": "STL",
@@ -493,7 +493,7 @@
       "bet_placed": "NO"
     },
     {
-      "timestamp": "2026-03-09T00:45:28.094458+00:00",
+      "timestamp": "2026-03-09T01:00:27.965305+00:00",
       "game_date": "2026-03-08",
       "game_id": "2025021007",
       "away": "EDM",
@@ -5789,13 +5789,53 @@
       "away_score": null,
       "home_score": null,
       "result_updated": null
+    },
+    {
+      "timestamp": "2026-03-09T01:00:27.965276+00:00",
+      "game_date": "2026-03-08",
+      "game_id": "2025021006",
+      "away": "STL",
+      "home": "ANA",
+      "mp_away_prob": "0.4150",
+      "mp_home_prob": "0.5850",
+      "goalies_confirmed": "True",
+      "confirmed_count": "2",
+      "pm_away_price": "0.4050",
+      "pm_home_price": "0.5950",
+      "best_ev": "0.0247",
+      "best_ev_team": "STL",
+      "bet_placed": "NO",
+      "winner": null,
+      "away_score": null,
+      "home_score": null,
+      "result_updated": null
+    },
+    {
+      "timestamp": "2026-03-09T01:00:27.965305+00:00",
+      "game_date": "2026-03-08",
+      "game_id": "2025021007",
+      "away": "EDM",
+      "home": "VGK",
+      "mp_away_prob": "0.4430",
+      "mp_home_prob": "0.5570",
+      "goalies_confirmed": "True",
+      "confirmed_count": "2",
+      "pm_away_price": "0.5050",
+      "pm_home_price": "0.4950",
+      "best_ev": "0.1253",
+      "best_ev_team": "VGK",
+      "bet_placed": "YES",
+      "winner": null,
+      "away_score": null,
+      "home_score": null,
+      "result_updated": null
     }
   ],
   "stats": {
     "total_bets_today": 2,
     "total_bets_all_time": 28,
-    "total_games_scanned_today": 264,
-    "total_games_scanned_all": 2540,
-    "runs_today": 49
+    "total_games_scanned_today": 266,
+    "total_games_scanned_all": 2542,
+    "runs_today": 50
   }
 }
