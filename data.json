@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-09T02:45:03.599488+00:00",
+  "last_updated": "2026-03-09T03:00:03.495136+00:00",
   "scoreboard": [
     {
       "game_id": 2025021001,
@@ -71,7 +71,7 @@
       "game_id": 2025021007,
       "away": "EDM",
       "home": "VGK",
-      "away_score": 0,
+      "away_score": 1,
       "home_score": 0,
       "state": "LIVE",
       "period": 2,
