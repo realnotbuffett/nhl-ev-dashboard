@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-09T03:45:03.711505+00:00",
+  "last_updated": "2026-03-09T04:00:03.660481+00:00",
   "scoreboard": [
     {
       "game_id": 2025021001,
@@ -62,7 +62,7 @@
       "home": "ANA",
       "away_score": 4,
       "home_score": 0,
-      "state": "CRIT",
+      "state": "FINAL",
       "period": 3,
       "period_type": "REG",
       "start_time": "2026-03-09T01:00:00Z"
