@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-10T03:30:03.651097+00:00",
+  "last_updated": "2026-03-10T03:49:54.965302+00:00",
   "scoreboard": [
     {
       "game_id": 2025020828,
@@ -40,7 +40,7 @@
       "home": "CHI",
       "away_score": 2,
       "home_score": 3,
-      "state": "FINAL",
+      "state": "OFF",
       "period": 4,
       "period_type": "OT",
       "start_time": "2026-03-10T00:30:00Z"
@@ -49,9 +49,9 @@
       "game_id": 2025021011,
       "away": "OTT",
       "home": "VAN",
-      "away_score": 1,
+      "away_score": 2,
       "home_score": 0,
-      "state": "LIVE",
+      "state": "FINAL",
       "period": 3,
       "period_type": "REG",
       "start_time": "2026-03-10T01:00:00Z"
