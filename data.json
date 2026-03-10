@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-10T00:15:29.137120+00:00",
+  "last_updated": "2026-03-10T00:30:28.480649+00:00",
   "scoreboard": [
     {
       "game_id": 2025020828,
@@ -16,7 +16,7 @@
       "game_id": 2025021008,
       "away": "NYR",
       "home": "PHI",
-      "away_score": 3,
+      "away_score": 4,
       "home_score": 1,
       "state": "LIVE",
       "period": 2,
@@ -27,7 +27,7 @@
       "game_id": 2025021009,
       "away": "CGY",
       "home": "WSH",
-      "away_score": 0,
+      "away_score": 1,
       "home_score": 3,
       "state": "LIVE",
       "period": 2,
@@ -51,7 +51,7 @@
       "home": "VAN",
       "away_score": null,
       "home_score": null,
-      "state": "FUT",
+      "state": "PRE",
       "period": 1,
       "period_type": "REG",
       "start_time": "2026-03-10T01:00:00Z"
@@ -483,7 +483,7 @@
   ],
   "all_games": [
     {
-      "timestamp": "2026-03-10T00:15:29.103715+00:00",
+      "timestamp": "2026-03-10T00:30:28.443045+00:00",
       "game_date": "2026-03-09",
       "game_id": "2025021010",
       "away": "UTA",
@@ -492,14 +492,14 @@
       "mp_home_prob": "0.3910",
       "goalies_confirmed": "True",
       "confirmed_count": "2",
-      "pm_away_price": "0.6750",
-      "pm_home_price": "0.3250",
-      "best_ev": "0.2031",
+      "pm_away_price": "0.6800",
+      "pm_home_price": "0.3200",
+      "best_ev": "0.2219",
       "best_ev_team": "CHI",
       "bet_placed": "YES"
     },
     {
-      "timestamp": "2026-03-10T00:15:29.103826+00:00",
+      "timestamp": "2026-03-10T00:30:28.443170+00:00",
       "game_date": "2026-03-09",
       "game_id": "2025021011",
       "away": "OTT",
@@ -4575,13 +4575,53 @@
       "away_score": null,
       "home_score": null,
       "result_updated": null
+    },
+    {
+      "timestamp": "2026-03-10T00:30:28.443045+00:00",
+      "game_date": "2026-03-09",
+      "game_id": "2025021010",
+      "away": "UTA",
+      "home": "CHI",
+      "mp_away_prob": "0.6090",
+      "mp_home_prob": "0.3910",
+      "goalies_confirmed": "True",
+      "confirmed_count": "2",
+      "pm_away_price": "0.6800",
+      "pm_home_price": "0.3200",
+      "best_ev": "0.2219",
+      "best_ev_team": "CHI",
+      "bet_placed": "YES",
+      "winner": null,
+      "away_score": null,
+      "home_score": null,
+      "result_updated": null
+    },
+    {
+      "timestamp": "2026-03-10T00:30:28.443170+00:00",
+      "game_date": "2026-03-09",
+      "game_id": "2025021011",
+      "away": "OTT",
+      "home": "VAN",
+      "mp_away_prob": "0.7000",
+      "mp_home_prob": "0.3000",
+      "goalies_confirmed": "True",
+      "confirmed_count": "2",
+      "pm_away_price": "0.6650",
+      "pm_home_price": "0.3350",
+      "best_ev": "0.0526",
+      "best_ev_team": "OTT",
+      "bet_placed": "YES",
+      "winner": null,
+      "away_score": null,
+      "home_score": null,
+      "result_updated": null
     }
   ],
   "stats": {
     "total_bets_today": 2,
     "total_bets_all_time": 30,
-    "total_games_scanned_today": 203,
-    "total_games_scanned_all": 2747,
-    "runs_today": 47
+    "total_games_scanned_today": 205,
+    "total_games_scanned_all": 2749,
+    "runs_today": 48
   }
 }
