@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-10T02:45:03.606202+00:00",
+  "last_updated": "2026-03-10T03:00:03.568567+00:00",
   "scoreboard": [
     {
       "game_id": 2025020828,
@@ -40,7 +40,7 @@
       "home": "CHI",
       "away_score": 2,
       "home_score": 2,
-      "state": "LIVE",
+      "state": "CRIT",
       "period": 3,
       "period_type": "REG",
       "start_time": "2026-03-10T00:30:00Z"
