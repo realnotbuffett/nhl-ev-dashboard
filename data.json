@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-10T02:15:03.265311+00:00",
+  "last_updated": "2026-03-10T02:30:03.329877+00:00",
   "scoreboard": [
     {
       "game_id": 2025020828,
@@ -49,7 +49,7 @@
       "game_id": 2025021011,
       "away": "OTT",
       "home": "VAN",
-      "away_score": 0,
+      "away_score": 1,
       "home_score": 0,
       "state": "LIVE",
       "period": 2,
