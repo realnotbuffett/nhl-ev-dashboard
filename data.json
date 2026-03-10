@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-10T01:30:03.342384+00:00",
+  "last_updated": "2026-03-10T01:45:03.316591+00:00",
   "scoreboard": [
     {
       "game_id": 2025020828,
@@ -18,7 +18,7 @@
       "home": "PHI",
       "away_score": 6,
       "home_score": 2,
-      "state": "CRIT",
+      "state": "FINAL",
       "period": 3,
       "period_type": "REG",
       "start_time": "2026-03-09T23:00:00Z"
@@ -41,7 +41,7 @@
       "away_score": 2,
       "home_score": 1,
       "state": "LIVE",
-      "period": 1,
+      "period": 2,
       "period_type": "REG",
       "start_time": "2026-03-10T00:30:00Z"
     },
