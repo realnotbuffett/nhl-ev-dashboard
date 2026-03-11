@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-11T15:45:29.953420+00:00",
+  "last_updated": "2026-03-11T16:00:29.936767+00:00",
   "scoreboard": [
     {
       "game_id": 2025021025,
@@ -544,11 +544,25 @@
       "result": "LOSS",
       "score": "4-2",
       "order_id": "0xfbc266252952c0c747"
+    },
+    {
+      "timestamp": "2026-03-11T16:00:29.227505+00:00",
+      "game_date": "2026-03-11",
+      "team": "WSH",
+      "matchup": "WSH @ PHI",
+      "mp_prob": "0.6010",
+      "pm_price": "0.5550",
+      "best_ask": "0.5600",
+      "ev": "0.0732",
+      "gap": "0.0410",
+      "result": null,
+      "score": null,
+      "order_id": "0x44e00122b412902bc5"
     }
   ],
   "all_games": [
     {
-      "timestamp": "2026-03-11T15:45:29.599118+00:00",
+      "timestamp": "2026-03-11T16:00:29.548772+00:00",
       "game_date": "2026-03-11",
       "game_id": "2025021025",
       "away": "MTL",
@@ -562,30 +576,30 @@
       "best_ev": "0.0155",
       "best_ev_team": "OTT",
       "bet_placed": "NO",
-      "away_book_depth": "10321.76",
-      "home_book_depth": "18610.57",
-      "away_book_levels": "36",
-      "home_book_levels": "19"
+      "away_book_depth": "10016.48",
+      "home_book_depth": "18302.21",
+      "away_book_levels": "35",
+      "home_book_levels": "17"
     },
     {
-      "timestamp": "2026-03-11T15:45:29.916117+00:00",
+      "timestamp": "2026-03-11T16:00:29.866537+00:00",
       "game_date": "2026-03-11",
       "game_id": "2025021026",
       "away": "WSH",
       "home": "PHI",
-      "mp_away_prob": "0.5760",
-      "mp_home_prob": "0.4240",
-      "goalies_confirmed": "False",
-      "confirmed_count": "1",
-      "pm_away_price": "0.5350",
-      "pm_home_price": "0.4650",
-      "best_ev": "0.0766",
+      "mp_away_prob": "0.6010",
+      "mp_home_prob": "0.3990",
+      "goalies_confirmed": "True",
+      "confirmed_count": "2",
+      "pm_away_price": "0.5550",
+      "pm_home_price": "0.4450",
+      "best_ev": "0.0829",
       "best_ev_team": "WSH",
-      "bet_placed": "NO",
-      "away_book_depth": "9705.04",
-      "home_book_depth": "10892.86",
-      "away_book_levels": "26",
-      "home_book_levels": "31"
+      "bet_placed": "YES",
+      "away_book_depth": "9477.09",
+      "home_book_depth": "10664.91",
+      "away_book_levels": "21",
+      "home_book_levels": "30"
     }
   ],
   "today_games": [
@@ -1068,13 +1082,53 @@
       "away_score": "10892.86",
       "home_score": "26",
       "result_updated": "31"
+    },
+    {
+      "timestamp": "2026-03-11T16:00:29.548772+00:00",
+      "game_date": "2026-03-11",
+      "game_id": "2025021025",
+      "away": "MTL",
+      "home": "OTT",
+      "mp_away_prob": "0.3450",
+      "mp_home_prob": "0.6550",
+      "goalies_confirmed": "False",
+      "confirmed_count": "1",
+      "pm_away_price": "0.3550",
+      "pm_home_price": "0.6450",
+      "best_ev": "0.0155",
+      "best_ev_team": "OTT",
+      "bet_placed": "NO",
+      "winner": "10016.48",
+      "away_score": "18302.21",
+      "home_score": "35",
+      "result_updated": "17"
+    },
+    {
+      "timestamp": "2026-03-11T16:00:29.866537+00:00",
+      "game_date": "2026-03-11",
+      "game_id": "2025021026",
+      "away": "WSH",
+      "home": "PHI",
+      "mp_away_prob": "0.6010",
+      "mp_home_prob": "0.3990",
+      "goalies_confirmed": "True",
+      "confirmed_count": "2",
+      "pm_away_price": "0.5550",
+      "pm_home_price": "0.4450",
+      "best_ev": "0.0829",
+      "best_ev_team": "WSH",
+      "bet_placed": "YES",
+      "winner": "9477.09",
+      "away_score": "10664.91",
+      "home_score": "21",
+      "result_updated": "30"
     }
   ],
   "stats": {
-    "total_bets_today": 0,
-    "total_bets_all_time": 37,
-    "total_games_scanned_today": 24,
-    "total_games_scanned_all": 3350,
-    "runs_today": 13
+    "total_bets_today": 1,
+    "total_bets_all_time": 38,
+    "total_games_scanned_today": 26,
+    "total_games_scanned_all": 3352,
+    "runs_today": 14
   }
 }
