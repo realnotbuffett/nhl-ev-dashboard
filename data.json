@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-11T18:00:30.280527+00:00",
+  "last_updated": "2026-03-11T18:15:30.066925+00:00",
   "scoreboard": [
     {
       "game_id": 2025021025,
@@ -562,7 +562,7 @@
   ],
   "all_games": [
     {
-      "timestamp": "2026-03-11T18:00:29.937442+00:00",
+      "timestamp": "2026-03-11T18:15:29.720567+00:00",
       "game_date": "2026-03-11",
       "game_id": "2025021025",
       "away": "MTL",
@@ -577,12 +577,12 @@
       "best_ev_team": "OTT",
       "bet_placed": "NO",
       "away_book_depth": "58396.33",
-      "home_book_depth": "51543.63",
+      "home_book_depth": "51553.1",
       "away_book_levels": "34",
-      "home_book_levels": "21"
+      "home_book_levels": "20"
     },
     {
-      "timestamp": "2026-03-11T18:00:30.252651+00:00",
+      "timestamp": "2026-03-11T18:15:30.035059+00:00",
       "game_date": "2026-03-11",
       "game_id": "2025021026",
       "away": "WSH",
@@ -1442,13 +1442,53 @@
       "away_score": "57135.76",
       "home_score": "20",
       "result_updated": "28"
+    },
+    {
+      "timestamp": "2026-03-11T18:15:29.720567+00:00",
+      "game_date": "2026-03-11",
+      "game_id": "2025021025",
+      "away": "MTL",
+      "home": "OTT",
+      "mp_away_prob": "0.3470",
+      "mp_home_prob": "0.6530",
+      "goalies_confirmed": "True",
+      "confirmed_count": "2",
+      "pm_away_price": "0.3650",
+      "pm_home_price": "0.6350",
+      "best_ev": "0.0283",
+      "best_ev_team": "OTT",
+      "bet_placed": "NO",
+      "winner": "58396.33",
+      "away_score": "51553.1",
+      "home_score": "34",
+      "result_updated": "20"
+    },
+    {
+      "timestamp": "2026-03-11T18:15:30.035059+00:00",
+      "game_date": "2026-03-11",
+      "game_id": "2025021026",
+      "away": "WSH",
+      "home": "PHI",
+      "mp_away_prob": "0.6010",
+      "mp_home_prob": "0.3990",
+      "goalies_confirmed": "True",
+      "confirmed_count": "2",
+      "pm_away_price": "0.5550",
+      "pm_home_price": "0.4450",
+      "best_ev": "0.0829",
+      "best_ev_team": "WSH",
+      "bet_placed": "YES",
+      "winner": "58492.7",
+      "away_score": "57135.76",
+      "home_score": "20",
+      "result_updated": "28"
     }
   ],
   "stats": {
     "total_bets_today": 1,
     "total_bets_all_time": 38,
-    "total_games_scanned_today": 42,
-    "total_games_scanned_all": 3368,
-    "runs_today": 22
+    "total_games_scanned_today": 44,
+    "total_games_scanned_all": 3370,
+    "runs_today": 23
   }
 }
