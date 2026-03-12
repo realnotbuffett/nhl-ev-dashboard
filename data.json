@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-12T02:15:03.190318+00:00",
+  "last_updated": "2026-03-12T02:30:03.272937+00:00",
   "scoreboard": [
     {
       "game_id": 2025021025,
@@ -7,7 +7,7 @@
       "home": "OTT",
       "away_score": 3,
       "home_score": 2,
-      "state": "CRIT",
+      "state": "FINAL",
       "period": 3,
       "period_type": "REG",
       "start_time": "2026-03-11T23:30:00Z"
