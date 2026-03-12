@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-03-11T23:45:03.231780+00:00",
+  "last_updated": "2026-03-12T00:00:03.268337+00:00",
   "scoreboard": [
     {
       "game_id": 2025021025,
       "away": "MTL",
       "home": "OTT",
-      "away_score": 0,
+      "away_score": 1,
       "home_score": 0,
       "state": "LIVE",
       "period": 1,
@@ -16,7 +16,7 @@
       "game_id": 2025021026,
       "away": "WSH",
       "home": "PHI",
-      "away_score": 0,
+      "away_score": 1,
       "home_score": 0,
       "state": "LIVE",
       "period": 1,
