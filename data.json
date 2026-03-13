@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-13T03:30:03.608866+00:00",
+  "last_updated": "2026-03-13T03:45:03.235165+00:00",
   "scoreboard": [
     {
       "game_id": 2025021027,
@@ -84,7 +84,7 @@
       "home": "DAL",
       "away_score": 2,
       "home_score": 7,
-      "state": "FINAL",
+      "state": "OFF",
       "period": 3,
       "period_type": "REG",
       "start_time": "2026-03-13T00:00:00Z"
@@ -115,11 +115,11 @@
       "game_id": 2025021037,
       "away": "CHI",
       "home": "UTA",
-      "away_score": 2,
+      "away_score": 3,
       "home_score": 2,
-      "state": "CRIT",
-      "period": 3,
-      "period_type": "REG",
+      "state": "FINAL",
+      "period": 4,
+      "period_type": "OT",
       "start_time": "2026-03-13T01:00:00Z"
     },
     {
@@ -137,7 +137,7 @@
       "game_id": 2025021039,
       "away": "PIT",
       "home": "VGK",
-      "away_score": 1,
+      "away_score": 2,
       "home_score": 3,
       "state": "LIVE",
       "period": 2,
@@ -148,8 +148,8 @@
       "game_id": 2025021040,
       "away": "COL",
       "home": "SEA",
-      "away_score": 3,
-      "home_score": 0,
+      "away_score": 4,
+      "home_score": 1,
       "state": "LIVE",
       "period": 2,
       "period_type": "REG",
