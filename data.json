@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-13T21:15:29.150398+00:00",
+  "last_updated": "2026-03-13T21:30:29.614789+00:00",
   "scoreboard": [
     {
       "game_id": 2025021041,
@@ -674,7 +674,7 @@
   ],
   "all_games": [
     {
-      "timestamp": "2026-03-13T21:15:28.732635+00:00",
+      "timestamp": "2026-03-13T21:30:29.193140+00:00",
       "game_date": "2026-03-13",
       "game_id": "2025021041",
       "away": "LAK",
@@ -688,13 +688,13 @@
       "best_ev": "0.0319",
       "best_ev_team": "NYI",
       "bet_placed": "NO",
-      "away_book_depth": "80078.35",
-      "home_book_depth": "73615.81",
+      "away_book_depth": "79484.38",
+      "home_book_depth": "73616.26",
       "away_book_levels": "29",
-      "home_book_levels": "20"
+      "home_book_levels": "21"
     },
     {
-      "timestamp": "2026-03-13T21:15:29.054057+00:00",
+      "timestamp": "2026-03-13T21:30:29.524583+00:00",
       "game_date": "2026-03-13",
       "game_id": "2025021042",
       "away": "EDM",
@@ -709,7 +709,7 @@
       "best_ev_team": "EDM",
       "bet_placed": "NO",
       "away_book_depth": "76135.74",
-      "home_book_depth": "80078.14",
+      "home_book_depth": "79484.14",
       "away_book_levels": "22",
       "home_book_levels": "28"
     }
@@ -2074,13 +2074,53 @@
       "away_score": "80078.14",
       "home_score": "22",
       "result_updated": "28"
+    },
+    {
+      "timestamp": "2026-03-13T21:30:29.193140+00:00",
+      "game_date": "2026-03-13",
+      "game_id": "2025021041",
+      "away": "LAK",
+      "home": "NYI",
+      "mp_away_prob": "0.4170",
+      "mp_home_prob": "0.5830",
+      "goalies_confirmed": "False",
+      "confirmed_count": "1",
+      "pm_away_price": "0.4350",
+      "pm_home_price": "0.5650",
+      "best_ev": "0.0319",
+      "best_ev_team": "NYI",
+      "bet_placed": "NO",
+      "winner": "79484.38",
+      "away_score": "73616.26",
+      "home_score": "29",
+      "result_updated": "21"
+    },
+    {
+      "timestamp": "2026-03-13T21:30:29.524583+00:00",
+      "game_date": "2026-03-13",
+      "game_id": "2025021042",
+      "away": "EDM",
+      "home": "STL",
+      "mp_away_prob": "0.5770",
+      "mp_home_prob": "0.4230",
+      "goalies_confirmed": "False",
+      "confirmed_count": "0",
+      "pm_away_price": "0.5750",
+      "pm_home_price": "0.4250",
+      "best_ev": "0.0035",
+      "best_ev_team": "EDM",
+      "bet_placed": "NO",
+      "winner": "76135.74",
+      "away_score": "79484.14",
+      "home_score": "22",
+      "result_updated": "28"
     }
   ],
   "stats": {
     "total_bets_today": 0,
     "total_bets_all_time": 46,
-    "total_games_scanned_today": 68,
-    "total_games_scanned_all": 4110,
-    "runs_today": 35
+    "total_games_scanned_today": 70,
+    "total_games_scanned_all": 4112,
+    "runs_today": 36
   }
 }
