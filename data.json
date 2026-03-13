@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-13T02:30:03.268581+00:00",
+  "last_updated": "2026-03-13T02:45:03.371763+00:00",
   "scoreboard": [
     {
       "game_id": 2025021027,
@@ -62,7 +62,7 @@
       "home": "NJD",
       "away_score": 5,
       "home_score": 4,
-      "state": "FINAL",
+      "state": "OFF",
       "period": 3,
       "period_type": "REG",
       "start_time": "2026-03-12T23:00:00Z"
@@ -83,8 +83,8 @@
       "away": "EDM",
       "home": "DAL",
       "away_score": 2,
-      "home_score": 6,
-      "state": "CRIT",
+      "home_score": 7,
+      "state": "FINAL",
       "period": 3,
       "period_type": "REG",
       "start_time": "2026-03-13T00:00:00Z"
@@ -96,8 +96,8 @@
       "away_score": 2,
       "home_score": 2,
       "state": "CRIT",
-      "period": 3,
-      "period_type": "REG",
+      "period": 4,
+      "period_type": "OT",
       "start_time": "2026-03-13T00:00:00Z"
     },
     {
@@ -106,7 +106,7 @@
       "home": "WPG",
       "away_score": 6,
       "home_score": 3,
-      "state": "CRIT",
+      "state": "FINAL",
       "period": 3,
       "period_type": "REG",
       "start_time": "2026-03-13T00:00:00Z"
@@ -126,7 +126,7 @@
       "game_id": 2025021038,
       "away": "NSH",
       "home": "VAN",
-      "away_score": 0,
+      "away_score": 1,
       "home_score": 1,
       "state": "LIVE",
       "period": 1,
@@ -148,7 +148,7 @@
       "game_id": 2025021040,
       "away": "COL",
       "home": "SEA",
-      "away_score": 1,
+      "away_score": 2,
       "home_score": 0,
       "state": "LIVE",
       "period": 1,
