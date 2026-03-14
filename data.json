@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-14T02:15:03.283350+00:00",
+  "last_updated": "2026-03-14T02:30:03.233031+00:00",
   "scoreboard": [
     {
       "game_id": 2025021041,
@@ -17,10 +17,10 @@
       "away": "EDM",
       "home": "STL",
       "away_score": 2,
-      "home_score": 1,
-      "state": "LIVE",
-      "period": 3,
-      "period_type": "REG",
+      "home_score": 2,
+      "state": "CRIT",
+      "period": 4,
+      "period_type": "OT",
       "start_time": "2026-03-14T00:00:00Z"
     }
   ],
