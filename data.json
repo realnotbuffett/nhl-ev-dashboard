@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-03-14T01:00:03.339577+00:00",
+  "last_updated": "2026-03-14T01:15:03.273356+00:00",
   "scoreboard": [
     {
       "game_id": 2025021041,
       "away": "LAK",
       "home": "NYI",
       "away_score": 3,
-      "home_score": 1,
+      "home_score": 2,
       "state": "LIVE",
-      "period": 2,
+      "period": 3,
       "period_type": "REG",
       "start_time": "2026-03-13T23:00:00Z"
     },
