@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-13T23:45:19.473504+00:00",
+  "last_updated": "2026-03-14T00:00:19.396516+00:00",
   "scoreboard": [
     {
       "game_id": 2025021041,
@@ -688,23 +688,23 @@
   ],
   "all_games": [
     {
-      "timestamp": "2026-03-13T23:45:19.427883+00:00",
+      "timestamp": "2026-03-14T00:00:19.334467+00:00",
       "game_date": "2026-03-13",
       "game_id": "2025021042",
       "away": "EDM",
       "home": "STL",
-      "mp_away_prob": "0.5640",
-      "mp_home_prob": "0.4360",
+      "mp_away_prob": "0.5460",
+      "mp_home_prob": "0.4540",
       "goalies_confirmed": "True",
       "confirmed_count": "2",
-      "pm_away_price": "0.5650",
-      "pm_home_price": "0.4350",
-      "best_ev": "0.0023",
+      "pm_away_price": "0.5550",
+      "pm_home_price": "0.4450",
+      "best_ev": "0.0202",
       "best_ev_team": "STL",
       "bet_placed": "NO",
-      "away_book_depth": "85240.06",
-      "home_book_depth": "82839.39",
-      "away_book_levels": "19",
+      "away_book_depth": "105086.25",
+      "home_book_depth": "111129.77",
+      "away_book_levels": "26",
       "home_book_levels": "27"
     }
   ],
@@ -2408,13 +2408,33 @@
       "away_score": "82839.39",
       "home_score": "19",
       "result_updated": "27"
+    },
+    {
+      "timestamp": "2026-03-14T00:00:19.334467+00:00",
+      "game_date": "2026-03-13",
+      "game_id": "2025021042",
+      "away": "EDM",
+      "home": "STL",
+      "mp_away_prob": "0.5460",
+      "mp_home_prob": "0.4540",
+      "goalies_confirmed": "True",
+      "confirmed_count": "2",
+      "pm_away_price": "0.5550",
+      "pm_home_price": "0.4450",
+      "best_ev": "0.0202",
+      "best_ev_team": "STL",
+      "bet_placed": "NO",
+      "winner": "105086.25",
+      "away_score": "111129.77",
+      "home_score": "26",
+      "result_updated": "27"
     }
   ],
   "stats": {
     "total_bets_today": 1,
     "total_bets_all_time": 47,
-    "total_games_scanned_today": 85,
-    "total_games_scanned_all": 4127,
-    "runs_today": 45
+    "total_games_scanned_today": 86,
+    "total_games_scanned_all": 4128,
+    "runs_today": 46
   }
 }
