@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-15T03:15:04.661466+00:00",
+  "last_updated": "2026-03-15T03:30:03.317227+00:00",
   "scoreboard": [
     {
       "game_id": 2025021043,
@@ -126,7 +126,7 @@
       "game_id": 2025021054,
       "away": "PIT",
       "home": "UTA",
-      "away_score": 3,
+      "away_score": 4,
       "home_score": 3,
       "state": "LIVE",
       "period": 3,
