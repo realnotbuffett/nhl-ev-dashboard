@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-15T03:00:03.281143+00:00",
+  "last_updated": "2026-03-15T03:15:04.661466+00:00",
   "scoreboard": [
     {
       "game_id": 2025021043,
@@ -117,7 +117,7 @@
       "home": "DAL",
       "away_score": 2,
       "home_score": 3,
-      "state": "FINAL",
+      "state": "OFF",
       "period": 4,
       "period_type": "OT",
       "start_time": "2026-03-15T00:00:00Z"
@@ -126,8 +126,8 @@
       "game_id": 2025021054,
       "away": "PIT",
       "home": "UTA",
-      "away_score": 2,
-      "home_score": 2,
+      "away_score": 3,
+      "home_score": 3,
       "state": "LIVE",
       "period": 3,
       "period_type": "REG",
@@ -137,10 +137,10 @@
       "game_id": 2025021055,
       "away": "SEA",
       "home": "VAN",
-      "away_score": 2,
+      "away_score": 3,
       "home_score": 1,
       "state": "LIVE",
-      "period": 1,
+      "period": 2,
       "period_type": "REG",
       "start_time": "2026-03-15T02:00:00Z"
     },
@@ -151,7 +151,7 @@
       "away_score": 0,
       "home_score": 3,
       "state": "LIVE",
-      "period": 1,
+      "period": 2,
       "period_type": "REG",
       "start_time": "2026-03-15T02:00:00Z"
     }
