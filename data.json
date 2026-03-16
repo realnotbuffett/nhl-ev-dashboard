@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-16T03:15:04.759954+00:00",
+  "last_updated": "2026-03-16T03:30:03.377008+00:00",
   "scoreboard": [
     {
       "game_id": 2025021057,
@@ -51,7 +51,7 @@
       "home": "EDM",
       "away_score": 1,
       "home_score": 3,
-      "state": "FINAL",
+      "state": "OFF",
       "period": 3,
       "period_type": "REG",
       "start_time": "2026-03-16T00:00:00Z"
