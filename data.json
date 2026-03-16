@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-16T00:45:03.367650+00:00",
+  "last_updated": "2026-03-16T01:00:03.336568+00:00",
   "scoreboard": [
     {
       "game_id": 2025021057,
@@ -30,7 +30,7 @@
       "away_score": 3,
       "home_score": 3,
       "state": "LIVE",
-      "period": 2,
+      "period": 3,
       "period_type": "REG",
       "start_time": "2026-03-15T23:00:00Z"
     },
