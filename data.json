@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-16T01:30:03.348293+00:00",
+  "last_updated": "2026-03-16T01:45:03.370344+00:00",
   "scoreboard": [
     {
       "game_id": 2025021057,
@@ -27,9 +27,9 @@
       "game_id": 2025021059,
       "away": "ANA",
       "home": "MTL",
-      "away_score": 3,
+      "away_score": 4,
       "home_score": 3,
-      "state": "CRIT",
+      "state": "FINAL",
       "period": 3,
       "period_type": "REG",
       "start_time": "2026-03-15T23:00:00Z"
@@ -39,7 +39,7 @@
       "away": "TOR",
       "home": "MIN",
       "away_score": 3,
-      "home_score": 0,
+      "home_score": 2,
       "state": "LIVE",
       "period": 3,
       "period_type": "REG",
