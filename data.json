@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-16T02:15:03.372564+00:00",
+  "last_updated": "2026-03-16T02:30:03.379022+00:00",
   "scoreboard": [
     {
       "game_id": 2025021057,
@@ -51,7 +51,7 @@
       "home": "EDM",
       "away_score": 1,
       "home_score": 2,
-      "state": "LIVE",
+      "state": "CRIT",
       "period": 3,
       "period_type": "REG",
       "start_time": "2026-03-16T00:00:00Z"
@@ -61,8 +61,8 @@
       "away": "FLA",
       "home": "SEA",
       "away_score": 1,
-      "home_score": 4,
-      "state": "LIVE",
+      "home_score": 6,
+      "state": "CRIT",
       "period": 3,
       "period_type": "REG",
       "start_time": "2026-03-16T00:00:00Z"
