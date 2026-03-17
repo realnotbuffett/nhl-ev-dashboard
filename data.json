@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-17T01:15:20.026994+00:00",
+  "last_updated": "2026-03-17T01:30:19.816188+00:00",
   "scoreboard": [
     {
       "game_id": 2025021063,
@@ -7,7 +7,7 @@
       "home": "DET",
       "away_score": 2,
       "home_score": 4,
-      "state": "LIVE",
+      "state": "CRIT",
       "period": 3,
       "period_type": "REG",
       "start_time": "2026-03-16T23:00:00Z"
@@ -27,9 +27,9 @@
       "game_id": 2025021065,
       "away": "LAK",
       "home": "NYR",
-      "away_score": 3,
+      "away_score": 4,
       "home_score": 1,
-      "state": "LIVE",
+      "state": "CRIT",
       "period": 3,
       "period_type": "REG",
       "start_time": "2026-03-16T23:00:00Z"
@@ -39,7 +39,7 @@
       "away": "UTA",
       "home": "DAL",
       "away_score": 2,
-      "home_score": 1,
+      "home_score": 2,
       "state": "LIVE",
       "period": 2,
       "period_type": "REG",
@@ -763,7 +763,7 @@
   ],
   "all_games": [
     {
-      "timestamp": "2026-03-17T01:15:19.944155+00:00",
+      "timestamp": "2026-03-17T01:30:19.691515+00:00",
       "game_date": "2026-03-16",
       "game_id": "2025021067",
       "away": "PIT",
@@ -777,10 +777,10 @@
       "best_ev": "0.0351",
       "best_ev_team": "COL",
       "bet_placed": "NO",
-      "away_book_depth": "97479.5",
-      "home_book_depth": "69476.32",
-      "away_book_levels": "27",
-      "home_book_levels": "18"
+      "away_book_depth": "44374.69",
+      "home_book_depth": "29194.99",
+      "away_book_levels": "19",
+      "home_book_levels": "11"
     }
   ],
   "today_games": [
@@ -5143,13 +5143,33 @@
       "away_score": "69476.32",
       "home_score": "27",
       "result_updated": "18"
+    },
+    {
+      "timestamp": "2026-03-17T01:30:19.691515+00:00",
+      "game_date": "2026-03-16",
+      "game_id": "2025021067",
+      "away": "PIT",
+      "home": "COL",
+      "mp_away_prob": "0.3220",
+      "mp_home_prob": "0.6780",
+      "goalies_confirmed": "True",
+      "confirmed_count": "2",
+      "pm_away_price": "0.3450",
+      "pm_home_price": "0.6550",
+      "best_ev": "0.0351",
+      "best_ev_team": "COL",
+      "bet_placed": "NO",
+      "winner": "44374.69",
+      "away_score": "29194.99",
+      "home_score": "19",
+      "result_updated": "11"
     }
   ],
   "stats": {
     "total_bets_today": 3,
     "total_bets_all_time": 52,
-    "total_games_scanned_today": 218,
-    "total_games_scanned_all": 5137,
-    "runs_today": 56
+    "total_games_scanned_today": 219,
+    "total_games_scanned_all": 5138,
+    "runs_today": 57
   }
 }
