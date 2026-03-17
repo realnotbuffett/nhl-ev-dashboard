@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-17T02:30:03.364487+00:00",
+  "last_updated": "2026-03-17T02:45:03.443693+00:00",
   "scoreboard": [
     {
       "game_id": 2025021063,
@@ -39,8 +39,8 @@
       "away": "UTA",
       "home": "DAL",
       "away_score": 6,
-      "home_score": 2,
-      "state": "CRIT",
+      "home_score": 3,
+      "state": "FINAL",
       "period": 3,
       "period_type": "REG",
       "start_time": "2026-03-17T00:00:00Z"
