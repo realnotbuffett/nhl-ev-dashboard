@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-17T03:15:04.935224+00:00",
+  "last_updated": "2026-03-17T03:30:03.373813+00:00",
   "scoreboard": [
     {
       "game_id": 2025021063,
@@ -49,7 +49,7 @@
       "game_id": 2025021067,
       "away": "PIT",
       "home": "COL",
-      "away_score": 5,
+      "away_score": 6,
       "home_score": 2,
       "state": "LIVE",
       "period": 2,
