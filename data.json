@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-17T01:45:19.989105+00:00",
+  "last_updated": "2026-03-17T02:00:03.556415+00:00",
   "scoreboard": [
     {
       "game_id": 2025021063,
@@ -17,10 +17,10 @@
       "away": "BOS",
       "home": "NJD",
       "away_score": 3,
-      "home_score": 3,
-      "state": "CRIT",
-      "period": 3,
-      "period_type": "REG",
+      "home_score": 4,
+      "state": "FINAL",
+      "period": 4,
+      "period_type": "OT",
       "start_time": "2026-03-16T23:00:00Z"
     },
     {
@@ -41,7 +41,7 @@
       "away_score": 2,
       "home_score": 2,
       "state": "LIVE",
-      "period": 2,
+      "period": 3,
       "period_type": "REG",
       "start_time": "2026-03-17T00:00:00Z"
     },
@@ -49,9 +49,9 @@
       "game_id": 2025021067,
       "away": "PIT",
       "home": "COL",
-      "away_score": null,
-      "home_score": null,
-      "state": "PRE",
+      "away_score": 2,
+      "home_score": 1,
+      "state": "LIVE",
       "period": 1,
       "period_type": "REG",
       "start_time": "2026-03-17T01:30:00Z"
@@ -761,28 +761,7 @@
       "order_id": "0x7312172846538729b0"
     }
   ],
-  "all_games": [
-    {
-      "timestamp": "2026-03-17T01:45:19.866153+00:00",
-      "game_date": "2026-03-16",
-      "game_id": "2025021067",
-      "away": "PIT",
-      "home": "COL",
-      "mp_away_prob": "0.3220",
-      "mp_home_prob": "0.6780",
-      "goalies_confirmed": "True",
-      "confirmed_count": "2",
-      "pm_away_price": "0.3350",
-      "pm_home_price": "0.6650",
-      "best_ev": "0.0195",
-      "best_ev_team": "COL",
-      "bet_placed": "NO",
-      "away_book_depth": "99813.15",
-      "home_book_depth": "82746.06",
-      "away_book_levels": "22",
-      "home_book_levels": "12"
-    }
-  ],
+  "all_games": [],
   "today_games": [
     {
       "timestamp": "2026-03-16T13:01:00.878208+00:00",
