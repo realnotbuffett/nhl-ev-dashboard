@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-19T02:00:19.155754+00:00",
+  "last_updated": "2026-03-19T02:15:03.466164+00:00",
   "scoreboard": [
     {
       "game_id": 2025021077,
@@ -7,7 +7,7 @@
       "home": "NYR",
       "away_score": 6,
       "home_score": 3,
-      "state": "FINAL",
+      "state": "OFF",
       "period": 3,
       "period_type": "REG",
       "start_time": "2026-03-18T23:00:00Z"
@@ -27,9 +27,9 @@
       "game_id": 2025021079,
       "away": "OTT",
       "home": "WSH",
-      "away_score": 0,
-      "home_score": 2,
-      "state": "CRIT",
+      "away_score": 1,
+      "home_score": 4,
+      "state": "FINAL",
       "period": 3,
       "period_type": "REG",
       "start_time": "2026-03-18T23:30:00Z"
@@ -50,7 +50,7 @@
       "away": "STL",
       "home": "CGY",
       "away_score": 0,
-      "home_score": 1,
+      "home_score": 2,
       "state": "LIVE",
       "period": 1,
       "period_type": "REG",
@@ -60,9 +60,9 @@
       "game_id": 2025021082,
       "away": "PHI",
       "home": "ANA",
-      "away_score": null,
-      "home_score": null,
-      "state": "PRE",
+      "away_score": 1,
+      "home_score": 0,
+      "state": "LIVE",
       "period": 1,
       "period_type": "REG",
       "start_time": "2026-03-19T02:00:00Z"
@@ -772,28 +772,7 @@
       "order_id": "0x393e34ccdc3dce1f99"
     }
   ],
-  "all_games": [
-    {
-      "timestamp": "2026-03-19T02:00:19.062990+00:00",
-      "game_date": "2026-03-18",
-      "game_id": "2025021082",
-      "away": "PHI",
-      "home": "ANA",
-      "mp_away_prob": "0.4260",
-      "mp_home_prob": "0.5740",
-      "goalies_confirmed": "True",
-      "confirmed_count": "2",
-      "pm_away_price": "0.4250",
-      "pm_home_price": "0.5750",
-      "best_ev": "0.0024",
-      "best_ev_team": "PHI",
-      "bet_placed": "NO",
-      "away_book_depth": "118930.44",
-      "home_book_depth": "91364.09",
-      "away_book_levels": "20",
-      "home_book_levels": "17"
-    }
-  ],
+  "all_games": [],
   "today_games": [
     {
       "timestamp": "2026-03-18T13:01:18.127820+00:00",
