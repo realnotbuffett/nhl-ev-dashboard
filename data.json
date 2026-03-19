@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-19T02:15:03.466164+00:00",
+  "last_updated": "2026-03-19T02:30:03.414943+00:00",
   "scoreboard": [
     {
       "game_id": 2025021077,
@@ -18,7 +18,7 @@
       "home": "CAR",
       "away_score": 5,
       "home_score": 6,
-      "state": "FINAL",
+      "state": "OFF",
       "period": 4,
       "period_type": "OT",
       "start_time": "2026-03-18T23:00:00Z"
@@ -39,7 +39,7 @@
       "away": "DAL",
       "home": "COL",
       "away_score": 0,
-      "home_score": 0,
+      "home_score": 1,
       "state": "LIVE",
       "period": 1,
       "period_type": "REG",
@@ -50,7 +50,7 @@
       "away": "STL",
       "home": "CGY",
       "away_score": 0,
-      "home_score": 2,
+      "home_score": 1,
       "state": "LIVE",
       "period": 1,
       "period_type": "REG",
