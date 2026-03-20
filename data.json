@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-20T03:30:03.538648+00:00",
+  "last_updated": "2026-03-20T03:45:03.581031+00:00",
   "scoreboard": [
     {
       "game_id": 2025021083,
@@ -115,8 +115,8 @@
       "game_id": 2025021093,
       "away": "PHI",
       "home": "LAK",
-      "away_score": 0,
-      "home_score": 1,
+      "away_score": 2,
+      "home_score": 2,
       "state": "LIVE",
       "period": 2,
       "period_type": "REG",
