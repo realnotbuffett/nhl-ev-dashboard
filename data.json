@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-20T02:15:19.877502+00:00",
+  "last_updated": "2026-03-20T02:30:19.615530+00:00",
   "scoreboard": [
     {
       "game_id": 2025021083,
@@ -29,7 +29,7 @@
       "home": "DET",
       "away_score": 1,
       "home_score": 3,
-      "state": "FINAL",
+      "state": "OFF",
       "period": 3,
       "period_type": "REG",
       "start_time": "2026-03-19T23:00:00Z"
@@ -40,7 +40,7 @@
       "home": "CBJ",
       "away_score": 3,
       "home_score": 6,
-      "state": "FINAL",
+      "state": "OFF",
       "period": 3,
       "period_type": "REG",
       "start_time": "2026-03-19T23:00:00Z"
@@ -51,7 +51,7 @@
       "home": "MIN",
       "away_score": 2,
       "home_score": 1,
-      "state": "CRIT",
+      "state": "FINAL",
       "period": 3,
       "period_type": "REG",
       "start_time": "2026-03-19T23:30:00Z"
@@ -71,7 +71,7 @@
       "game_id": 2025021089,
       "away": "FLA",
       "home": "EDM",
-      "away_score": 2,
+      "away_score": 3,
       "home_score": 0,
       "state": "LIVE",
       "period": 2,
@@ -93,7 +93,7 @@
       "game_id": 2025021091,
       "away": "UTA",
       "home": "VGK",
-      "away_score": 1,
+      "away_score": 3,
       "home_score": 0,
       "state": "LIVE",
       "period": 1,
@@ -829,7 +829,7 @@
   ],
   "all_games": [
     {
-      "timestamp": "2026-03-20T02:15:19.737585+00:00",
+      "timestamp": "2026-03-20T02:30:19.551839+00:00",
       "game_date": "2026-03-19",
       "game_id": "2025021093",
       "away": "PHI",
@@ -843,10 +843,10 @@
       "best_ev": "0.0195",
       "best_ev_team": "LAK",
       "bet_placed": "NO",
-      "away_book_depth": "98271.61",
-      "home_book_depth": "64483.09",
-      "away_book_levels": "23",
-      "home_book_levels": "17"
+      "away_book_depth": "1753.86",
+      "home_book_depth": "820.68",
+      "away_book_levels": "16",
+      "home_book_levels": "11"
     }
   ],
   "today_games": [
@@ -11129,13 +11129,33 @@
       "away_score": "64483.09",
       "home_score": "23",
       "result_updated": "17"
+    },
+    {
+      "timestamp": "2026-03-20T02:30:19.551839+00:00",
+      "game_date": "2026-03-19",
+      "game_id": "2025021093",
+      "away": "PHI",
+      "home": "LAK",
+      "mp_away_prob": "0.3730",
+      "mp_home_prob": "0.6270",
+      "goalies_confirmed": "True",
+      "confirmed_count": "2",
+      "pm_away_price": "0.3850",
+      "pm_home_price": "0.6150",
+      "best_ev": "0.0195",
+      "best_ev_team": "LAK",
+      "bet_placed": "NO",
+      "winner": "1753.86",
+      "away_score": "820.68",
+      "home_score": "16",
+      "result_updated": "11"
     }
   ],
   "stats": {
     "total_bets_today": 3,
     "total_bets_all_time": 61,
-    "total_games_scanned_today": 514,
-    "total_games_scanned_all": 6348,
-    "runs_today": 56
+    "total_games_scanned_today": 515,
+    "total_games_scanned_all": 6349,
+    "runs_today": 57
   }
 }
