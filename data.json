@@ -1,13 +1,13 @@
 {
-  "last_updated": "2026-03-21T01:15:19.794060+00:00",
+  "last_updated": "2026-03-21T01:30:19.693097+00:00",
   "scoreboard": [
     {
       "game_id": 2025021094,
       "away": "CAR",
       "home": "TOR",
       "away_score": 3,
-      "home_score": 2,
-      "state": "LIVE",
+      "home_score": 3,
+      "state": "CRIT",
       "period": 3,
       "period_type": "REG",
       "start_time": "2026-03-20T23:00:00Z"
@@ -18,7 +18,7 @@
       "home": "WSH",
       "away_score": 0,
       "home_score": 1,
-      "state": "LIVE",
+      "state": "CRIT",
       "period": 3,
       "period_type": "REG",
       "start_time": "2026-03-20T23:00:00Z"
@@ -30,7 +30,7 @@
       "away_score": 2,
       "home_score": 0,
       "state": "LIVE",
-      "period": 1,
+      "period": 2,
       "period_type": "REG",
       "start_time": "2026-03-21T00:30:00Z"
     },
@@ -51,7 +51,7 @@
       "home": "UTA",
       "away_score": null,
       "home_score": null,
-      "state": "FUT",
+      "state": "PRE",
       "period": 1,
       "period_type": "REG",
       "start_time": "2026-03-21T02:00:00Z"
@@ -763,7 +763,7 @@
   ],
   "all_games": [
     {
-      "timestamp": "2026-03-21T01:15:19.728761+00:00",
+      "timestamp": "2026-03-21T01:30:19.630546+00:00",
       "game_date": "2026-03-20",
       "game_id": "2025021098",
       "away": "ANA",
@@ -777,8 +777,8 @@
       "best_ev": "0.0225",
       "best_ev_team": "ANA",
       "bet_placed": "NO",
-      "away_book_depth": "93528.86",
-      "home_book_depth": "89856.36",
+      "away_book_depth": "96114.88",
+      "home_book_depth": "93776.36",
       "away_book_levels": "20",
       "home_book_levels": "19"
     }
@@ -5343,13 +5343,33 @@
       "away_score": "89856.36",
       "home_score": "20",
       "result_updated": "19"
+    },
+    {
+      "timestamp": "2026-03-21T01:30:19.630546+00:00",
+      "game_date": "2026-03-20",
+      "game_id": "2025021098",
+      "away": "ANA",
+      "home": "UTA",
+      "mp_away_prob": "0.4550",
+      "mp_home_prob": "0.5450",
+      "goalies_confirmed": "False",
+      "confirmed_count": "1",
+      "pm_away_price": "0.4450",
+      "pm_home_price": "0.5550",
+      "best_ev": "0.0225",
+      "best_ev_team": "ANA",
+      "bet_placed": "NO",
+      "winner": "96114.88",
+      "away_score": "93776.36",
+      "home_score": "20",
+      "result_updated": "19"
     }
   ],
   "stats": {
     "total_bets_today": 2,
     "total_bets_all_time": 63,
-    "total_games_scanned_today": 228,
-    "total_games_scanned_all": 6577,
-    "runs_today": 51
+    "total_games_scanned_today": 229,
+    "total_games_scanned_all": 6578,
+    "runs_today": 52
   }
 }
