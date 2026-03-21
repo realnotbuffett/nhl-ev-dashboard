@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-21T02:00:19.554330+00:00",
+  "last_updated": "2026-03-21T02:15:03.417644+00:00",
   "scoreboard": [
     {
       "game_id": 2025021094,
@@ -7,7 +7,7 @@
       "home": "TOR",
       "away_score": 4,
       "home_score": 3,
-      "state": "FINAL",
+      "state": "OFF",
       "period": 4,
       "period_type": "OT",
       "start_time": "2026-03-20T23:00:00Z"
@@ -18,7 +18,7 @@
       "home": "WSH",
       "away_score": 1,
       "home_score": 2,
-      "state": "FINAL",
+      "state": "OFF",
       "period": 3,
       "period_type": "REG",
       "start_time": "2026-03-20T23:00:00Z"
@@ -39,7 +39,7 @@
       "away": "FLA",
       "home": "CGY",
       "away_score": 0,
-      "home_score": 0,
+      "home_score": 2,
       "state": "LIVE",
       "period": 2,
       "period_type": "REG",
@@ -49,9 +49,9 @@
       "game_id": 2025021098,
       "away": "ANA",
       "home": "UTA",
-      "away_score": null,
-      "home_score": null,
-      "state": "PRE",
+      "away_score": 0,
+      "home_score": 1,
+      "state": "LIVE",
       "period": 1,
       "period_type": "REG",
       "start_time": "2026-03-21T02:00:00Z"
@@ -761,28 +761,7 @@
       "order_id": "0x779270615aae536de7"
     }
   ],
-  "all_games": [
-    {
-      "timestamp": "2026-03-21T02:00:19.478787+00:00",
-      "game_date": "2026-03-20",
-      "game_id": "2025021098",
-      "away": "ANA",
-      "home": "UTA",
-      "mp_away_prob": "0.4910",
-      "mp_home_prob": "0.5090",
-      "goalies_confirmed": "True",
-      "confirmed_count": "2",
-      "pm_away_price": "0.4450",
-      "pm_home_price": "0.5550",
-      "best_ev": "0.1034",
-      "best_ev_team": "ANA",
-      "bet_placed": "YES",
-      "away_book_depth": "118771.31",
-      "home_book_depth": "117121.53",
-      "away_book_levels": "19",
-      "home_book_levels": "18"
-    }
-  ],
+  "all_games": [],
   "today_games": [
     {
       "timestamp": "2026-03-20T13:01:01.687937+00:00",
