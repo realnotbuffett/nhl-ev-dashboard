@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-21T03:15:05.228995+00:00",
+  "last_updated": "2026-03-21T03:30:03.522007+00:00",
   "scoreboard": [
     {
       "game_id": 2025021094,
@@ -29,7 +29,7 @@
       "home": "CHI",
       "away_score": 4,
       "home_score": 1,
-      "state": "FINAL",
+      "state": "OFF",
       "period": 3,
       "period_type": "REG",
       "start_time": "2026-03-21T00:30:00Z"
@@ -40,7 +40,7 @@
       "home": "CGY",
       "away_score": 1,
       "home_score": 2,
-      "state": "LIVE",
+      "state": "CRIT",
       "period": 3,
       "period_type": "REG",
       "start_time": "2026-03-21T01:00:00Z"
@@ -49,7 +49,7 @@
       "game_id": 2025021098,
       "away": "ANA",
       "home": "UTA",
-      "away_score": 1,
+      "away_score": 2,
       "home_score": 1,
       "state": "LIVE",
       "period": 2,
