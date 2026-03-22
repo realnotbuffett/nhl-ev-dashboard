@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T02:45:03.437278+00:00",
+  "last_updated": "2026-03-22T03:00:03.422090+00:00",
   "scoreboard": [
     {
       "game_id": 2025021099,
@@ -106,7 +106,7 @@
       "home": "DET",
       "away_score": 4,
       "home_score": 2,
-      "state": "CRIT",
+      "state": "FINAL",
       "period": 3,
       "period_type": "REG",
       "start_time": "2026-03-22T00:00:00Z"
