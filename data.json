@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T01:15:19.635168+00:00",
+  "last_updated": "2026-03-22T01:30:19.243979+00:00",
   "scoreboard": [
     {
       "game_id": 2025021099,
@@ -72,7 +72,7 @@
       "away": "NYI",
       "home": "MTL",
       "away_score": 3,
-      "home_score": 3,
+      "home_score": 5,
       "state": "LIVE",
       "period": 3,
       "period_type": "REG",
@@ -82,8 +82,8 @@
       "game_id": 2025021106,
       "away": "TOR",
       "home": "OTT",
-      "away_score": 1,
-      "home_score": 3,
+      "away_score": 2,
+      "home_score": 4,
       "state": "LIVE",
       "period": 3,
       "period_type": "REG",
@@ -95,7 +95,7 @@
       "home": "VAN",
       "away_score": 2,
       "home_score": 1,
-      "state": "LIVE",
+      "state": "CRIT",
       "period": 3,
       "period_type": "REG",
       "start_time": "2026-03-21T23:00:00Z"
@@ -104,7 +104,7 @@
       "game_id": 2025021108,
       "away": "BOS",
       "home": "DET",
-      "away_score": 0,
+      "away_score": 1,
       "home_score": 1,
       "state": "LIVE",
       "period": 2,
@@ -117,7 +117,7 @@
       "home": "EDM",
       "away_score": null,
       "home_score": null,
-      "state": "FUT",
+      "state": "PRE",
       "period": 1,
       "period_type": "REG",
       "start_time": "2026-03-22T02:00:00Z"
@@ -829,7 +829,7 @@
   ],
   "all_games": [
     {
-      "timestamp": "2026-03-22T01:15:19.543741+00:00",
+      "timestamp": "2026-03-22T01:30:19.174973+00:00",
       "game_date": "2026-03-21",
       "game_id": "2025021109",
       "away": "TBL",
@@ -843,10 +843,10 @@
       "best_ev": "0.0225",
       "best_ev_team": "EDM",
       "bet_placed": "NO",
-      "away_book_depth": "102048.77",
-      "home_book_depth": "101957.76",
-      "away_book_levels": "22",
-      "home_book_levels": "27"
+      "away_book_depth": "102037.67",
+      "home_book_depth": "101944.76",
+      "away_book_levels": "21",
+      "home_book_levels": "26"
     }
   ],
   "today_games": [
@@ -8409,13 +8409,33 @@
       "away_score": "101957.76",
       "home_score": "22",
       "result_updated": "27"
+    },
+    {
+      "timestamp": "2026-03-22T01:30:19.174973+00:00",
+      "game_date": "2026-03-21",
+      "game_id": "2025021109",
+      "away": "TBL",
+      "home": "EDM",
+      "mp_away_prob": "0.5450",
+      "mp_home_prob": "0.4550",
+      "goalies_confirmed": "False",
+      "confirmed_count": "1",
+      "pm_away_price": "0.5550",
+      "pm_home_price": "0.4450",
+      "best_ev": "0.0225",
+      "best_ev_team": "EDM",
+      "bet_placed": "NO",
+      "winner": "102037.67",
+      "away_score": "101944.76",
+      "home_score": "21",
+      "result_updated": "26"
     }
   ],
   "stats": {
     "total_bets_today": 5,
     "total_bets_all_time": 69,
-    "total_games_scanned_today": 378,
-    "total_games_scanned_all": 6958,
-    "runs_today": 51
+    "total_games_scanned_today": 379,
+    "total_games_scanned_all": 6959,
+    "runs_today": 52
   }
 }
