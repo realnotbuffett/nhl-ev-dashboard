@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T02:30:03.459353+00:00",
+  "last_updated": "2026-03-22T02:45:03.437278+00:00",
   "scoreboard": [
     {
       "game_id": 2025021099,
@@ -73,7 +73,7 @@
       "home": "MTL",
       "away_score": 3,
       "home_score": 7,
-      "state": "FINAL",
+      "state": "OFF",
       "period": 3,
       "period_type": "REG",
       "start_time": "2026-03-21T23:00:00Z"
@@ -104,9 +104,9 @@
       "game_id": 2025021108,
       "away": "BOS",
       "home": "DET",
-      "away_score": 3,
+      "away_score": 4,
       "home_score": 2,
-      "state": "LIVE",
+      "state": "CRIT",
       "period": 3,
       "period_type": "REG",
       "start_time": "2026-03-22T00:00:00Z"
@@ -116,7 +116,7 @@
       "away": "TBL",
       "home": "EDM",
       "away_score": 0,
-      "home_score": 0,
+      "home_score": 1,
       "state": "LIVE",
       "period": 1,
       "period_type": "REG",
