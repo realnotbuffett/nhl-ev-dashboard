@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-23T20:00:19.375052+00:00",
+  "last_updated": "2026-03-23T20:15:19.654767+00:00",
   "scoreboard": [
     {
       "game_id": 2025021119,
@@ -719,7 +719,7 @@
   ],
   "all_games": [
     {
-      "timestamp": "2026-03-23T20:00:19.268750+00:00",
+      "timestamp": "2026-03-23T20:15:19.580106+00:00",
       "game_date": "2026-03-23",
       "game_id": "2025021119",
       "away": "OTT",
@@ -733,10 +733,10 @@
       "best_ev": "0.0208",
       "best_ev_team": "OTT",
       "bet_placed": "NO",
-      "away_book_depth": "64093.66",
+      "away_book_depth": "64036.56",
       "home_book_depth": "87565.87",
       "away_book_levels": "15",
-      "home_book_levels": "24"
+      "home_book_levels": "25"
     }
   ],
   "today_games": [
@@ -1319,13 +1319,33 @@
       "away_score": "87565.87",
       "home_score": "15",
       "result_updated": "24"
+    },
+    {
+      "timestamp": "2026-03-23T20:15:19.580106+00:00",
+      "game_date": "2026-03-23",
+      "game_id": "2025021119",
+      "away": "OTT",
+      "home": "NYR",
+      "mp_away_prob": "0.6380",
+      "mp_home_prob": "0.3620",
+      "goalies_confirmed": "True",
+      "confirmed_count": "2",
+      "pm_away_price": "0.6250",
+      "pm_home_price": "0.3750",
+      "best_ev": "0.0208",
+      "best_ev_team": "OTT",
+      "bet_placed": "NO",
+      "winner": "64036.56",
+      "away_score": "87565.87",
+      "home_score": "15",
+      "result_updated": "25"
     }
   ],
   "stats": {
     "total_bets_today": 0,
     "total_bets_all_time": 72,
-    "total_games_scanned_today": 29,
-    "total_games_scanned_all": 7289,
-    "runs_today": 30
+    "total_games_scanned_today": 30,
+    "total_games_scanned_all": 7290,
+    "runs_today": 31
   }
 }
