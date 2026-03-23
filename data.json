@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-23T03:30:03.619814+00:00",
+  "last_updated": "2026-03-23T03:45:03.574574+00:00",
   "scoreboard": [
     {
       "game_id": 2025021110,
@@ -84,7 +84,7 @@
       "home": "ANA",
       "away_score": 5,
       "home_score": 6,
-      "state": "FINAL",
+      "state": "OFF",
       "period": 4,
       "period_type": "OT",
       "start_time": "2026-03-23T00:00:00Z"
@@ -93,11 +93,11 @@
       "game_id": 2025021118,
       "away": "LAK",
       "home": "UTA",
-      "away_score": 2,
+      "away_score": 3,
       "home_score": 3,
-      "state": "LIVE",
-      "period": 3,
-      "period_type": "REG",
+      "state": "CRIT",
+      "period": 4,
+      "period_type": "OT",
       "start_time": "2026-03-23T01:00:00Z"
     }
   ],
