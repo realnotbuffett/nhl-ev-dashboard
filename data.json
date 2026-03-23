@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-23T02:15:03.622144+00:00",
+  "last_updated": "2026-03-23T02:30:03.682781+00:00",
   "scoreboard": [
     {
       "game_id": 2025021110,
@@ -71,9 +71,9 @@
       "game_id": 2025021116,
       "away": "TBL",
       "home": "CGY",
-      "away_score": 2,
+      "away_score": 3,
       "home_score": 3,
-      "state": "LIVE",
+      "state": "CRIT",
       "period": 3,
       "period_type": "REG",
       "start_time": "2026-03-23T00:00:00Z"
@@ -82,7 +82,7 @@
       "game_id": 2025021117,
       "away": "BUF",
       "home": "ANA",
-      "away_score": 3,
+      "away_score": 5,
       "home_score": 4,
       "state": "LIVE",
       "period": 3,
