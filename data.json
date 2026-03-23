@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-23T00:45:19.289313+00:00",
+  "last_updated": "2026-03-23T01:00:19.243083+00:00",
   "scoreboard": [
     {
       "game_id": 2025021110,
@@ -52,7 +52,7 @@
       "away_score": 0,
       "home_score": 1,
       "state": "LIVE",
-      "period": 2,
+      "period": 3,
       "period_type": "REG",
       "start_time": "2026-03-22T23:00:00Z"
     },
@@ -63,7 +63,7 @@
       "away_score": 2,
       "home_score": 2,
       "state": "LIVE",
-      "period": 2,
+      "period": 3,
       "period_type": "REG",
       "start_time": "2026-03-22T23:00:00Z"
     },
@@ -807,24 +807,24 @@
   ],
   "all_games": [
     {
-      "timestamp": "2026-03-23T00:45:19.200875+00:00",
+      "timestamp": "2026-03-23T01:00:19.187256+00:00",
       "game_date": "2026-03-22",
       "game_id": "2025021118",
       "away": "LAK",
       "home": "UTA",
-      "mp_away_prob": "0.3820",
-      "mp_home_prob": "0.6180",
+      "mp_away_prob": "0.3760",
+      "mp_home_prob": "0.6240",
       "goalies_confirmed": "True",
       "confirmed_count": "2",
       "pm_away_price": "0.3850",
       "pm_home_price": "0.6150",
-      "best_ev": "0.0049",
+      "best_ev": "0.0146",
       "best_ev_team": "UTA",
       "bet_placed": "NO",
-      "away_book_depth": "99984.35",
-      "home_book_depth": "78145.37",
-      "away_book_levels": "28",
-      "home_book_levels": "20"
+      "away_book_depth": "117258.45",
+      "home_book_depth": "100574.05",
+      "away_book_levels": "20",
+      "home_book_levels": "19"
     }
   ],
   "today_games": [
@@ -6787,13 +6787,33 @@
       "away_score": "78145.37",
       "home_score": "28",
       "result_updated": "20"
+    },
+    {
+      "timestamp": "2026-03-23T01:00:19.187256+00:00",
+      "game_date": "2026-03-22",
+      "game_id": "2025021118",
+      "away": "LAK",
+      "home": "UTA",
+      "mp_away_prob": "0.3760",
+      "mp_home_prob": "0.6240",
+      "goalies_confirmed": "True",
+      "confirmed_count": "2",
+      "pm_away_price": "0.3850",
+      "pm_home_price": "0.6150",
+      "best_ev": "0.0146",
+      "best_ev_team": "UTA",
+      "bet_placed": "NO",
+      "winner": "117258.45",
+      "away_score": "100574.05",
+      "home_score": "20",
+      "result_updated": "19"
     }
   ],
   "stats": {
     "total_bets_today": 3,
     "total_bets_all_time": 72,
-    "total_games_scanned_today": 298,
-    "total_games_scanned_all": 7259,
-    "runs_today": 49
+    "total_games_scanned_today": 299,
+    "total_games_scanned_all": 7260,
+    "runs_today": 50
   }
 }
