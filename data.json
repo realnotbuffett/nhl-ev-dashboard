@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-23T00:30:19.056965+00:00",
+  "last_updated": "2026-03-23T00:45:19.289313+00:00",
   "scoreboard": [
     {
       "game_id": 2025021110,
@@ -72,7 +72,7 @@
       "away": "TBL",
       "home": "CGY",
       "away_score": 1,
-      "home_score": 0,
+      "home_score": 2,
       "state": "LIVE",
       "period": 1,
       "period_type": "REG",
@@ -82,8 +82,8 @@
       "game_id": 2025021117,
       "away": "BUF",
       "home": "ANA",
-      "away_score": 1,
-      "home_score": 1,
+      "away_score": 2,
+      "home_score": 2,
       "state": "LIVE",
       "period": 1,
       "period_type": "REG",
@@ -807,15 +807,15 @@
   ],
   "all_games": [
     {
-      "timestamp": "2026-03-23T00:30:19.004298+00:00",
+      "timestamp": "2026-03-23T00:45:19.200875+00:00",
       "game_date": "2026-03-22",
       "game_id": "2025021118",
       "away": "LAK",
       "home": "UTA",
       "mp_away_prob": "0.3820",
       "mp_home_prob": "0.6180",
-      "goalies_confirmed": "False",
-      "confirmed_count": "1",
+      "goalies_confirmed": "True",
+      "confirmed_count": "2",
       "pm_away_price": "0.3850",
       "pm_home_price": "0.6150",
       "best_ev": "0.0049",
@@ -824,7 +824,7 @@
       "away_book_depth": "99984.35",
       "home_book_depth": "78145.37",
       "away_book_levels": "28",
-      "home_book_levels": "21"
+      "home_book_levels": "20"
     }
   ],
   "today_games": [
@@ -6767,13 +6767,33 @@
       "away_score": "78145.37",
       "home_score": "28",
       "result_updated": "21"
+    },
+    {
+      "timestamp": "2026-03-23T00:45:19.200875+00:00",
+      "game_date": "2026-03-22",
+      "game_id": "2025021118",
+      "away": "LAK",
+      "home": "UTA",
+      "mp_away_prob": "0.3820",
+      "mp_home_prob": "0.6180",
+      "goalies_confirmed": "True",
+      "confirmed_count": "2",
+      "pm_away_price": "0.3850",
+      "pm_home_price": "0.6150",
+      "best_ev": "0.0049",
+      "best_ev_team": "UTA",
+      "bet_placed": "NO",
+      "winner": "99984.35",
+      "away_score": "78145.37",
+      "home_score": "28",
+      "result_updated": "20"
     }
   ],
   "stats": {
     "total_bets_today": 3,
     "total_bets_all_time": 72,
-    "total_games_scanned_today": 297,
-    "total_games_scanned_all": 7258,
-    "runs_today": 48
+    "total_games_scanned_today": 298,
+    "total_games_scanned_all": 7259,
+    "runs_today": 49
   }
 }
