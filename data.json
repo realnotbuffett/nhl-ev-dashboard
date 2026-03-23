@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-23T22:15:19.187641+00:00",
+  "last_updated": "2026-03-23T22:30:18.962537+00:00",
   "scoreboard": [
     {
       "game_id": 2025021119,
@@ -719,7 +719,7 @@
   ],
   "all_games": [
     {
-      "timestamp": "2026-03-23T22:15:19.029847+00:00",
+      "timestamp": "2026-03-23T22:30:18.877070+00:00",
       "game_date": "2026-03-23",
       "game_id": "2025021119",
       "away": "OTT",
@@ -728,14 +728,14 @@
       "mp_home_prob": "0.3620",
       "goalies_confirmed": "True",
       "confirmed_count": "2",
-      "pm_away_price": "0.6250",
-      "pm_home_price": "0.3750",
-      "best_ev": "0.0208",
+      "pm_away_price": "0.6200",
+      "pm_home_price": "0.3800",
+      "best_ev": "0.0290",
       "best_ev_team": "OTT",
       "bet_placed": "NO",
-      "away_book_depth": "76159.72",
-      "home_book_depth": "97068.06",
-      "away_book_levels": "18",
+      "away_book_depth": "80079.72",
+      "home_book_depth": "99654.08",
+      "away_book_levels": "19",
       "home_book_levels": "27"
     }
   ],
@@ -1499,13 +1499,33 @@
       "away_score": "97068.06",
       "home_score": "18",
       "result_updated": "27"
+    },
+    {
+      "timestamp": "2026-03-23T22:30:18.877070+00:00",
+      "game_date": "2026-03-23",
+      "game_id": "2025021119",
+      "away": "OTT",
+      "home": "NYR",
+      "mp_away_prob": "0.6380",
+      "mp_home_prob": "0.3620",
+      "goalies_confirmed": "True",
+      "confirmed_count": "2",
+      "pm_away_price": "0.6200",
+      "pm_home_price": "0.3800",
+      "best_ev": "0.0290",
+      "best_ev_team": "OTT",
+      "bet_placed": "NO",
+      "winner": "80079.72",
+      "away_score": "99654.08",
+      "home_score": "19",
+      "result_updated": "27"
     }
   ],
   "stats": {
     "total_bets_today": 0,
     "total_bets_all_time": 72,
-    "total_games_scanned_today": 38,
-    "total_games_scanned_all": 7298,
-    "runs_today": 39
+    "total_games_scanned_today": 39,
+    "total_games_scanned_all": 7299,
+    "runs_today": 40
   }
 }
