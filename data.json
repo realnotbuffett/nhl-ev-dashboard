@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-24T02:15:03.525082+00:00",
+  "last_updated": "2026-03-24T02:30:03.819723+00:00",
   "scoreboard": [
     {
       "game_id": 2025021119,
@@ -7,7 +7,7 @@
       "home": "NYR",
       "away_score": 2,
       "home_score": 1,
-      "state": "CRIT",
+      "state": "FINAL",
       "period": 3,
       "period_type": "REG",
       "start_time": "2026-03-23T23:30:00Z"
