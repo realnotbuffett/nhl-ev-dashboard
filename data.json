@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-25T02:00:19.295332+00:00",
+  "last_updated": "2026-03-25T02:15:03.528707+00:00",
   "scoreboard": [
     {
       "game_id": 2025021120,
@@ -29,7 +29,7 @@
       "home": "DET",
       "away_score": 3,
       "home_score": 2,
-      "state": "FINAL",
+      "state": "OFF",
       "period": 3,
       "period_type": "REG",
       "start_time": "2026-03-24T23:00:00Z"
@@ -84,7 +84,7 @@
       "home": "TBL",
       "away_score": 3,
       "home_score": 3,
-      "state": "LIVE",
+      "state": "CRIT",
       "period": 3,
       "period_type": "REG",
       "start_time": "2026-03-24T23:30:00Z"
@@ -104,10 +104,10 @@
       "game_id": 2025021129,
       "away": "SJS",
       "home": "NSH",
-      "away_score": 2,
+      "away_score": 3,
       "home_score": 6,
       "state": "LIVE",
-      "period": 2,
+      "period": 3,
       "period_type": "REG",
       "start_time": "2026-03-25T00:00:00Z"
     },
@@ -115,7 +115,7 @@
       "game_id": 2025021130,
       "away": "NJD",
       "home": "DAL",
-      "away_score": 4,
+      "away_score": 5,
       "home_score": 3,
       "state": "LIVE",
       "period": 3,
@@ -148,7 +148,7 @@
       "game_id": 2025021132,
       "away": "EDM",
       "home": "UTA",
-      "away_score": 0,
+      "away_score": 1,
       "home_score": 1,
       "state": "LIVE",
       "period": 1,
@@ -159,9 +159,9 @@
       "game_id": 2025021134,
       "away": "ANA",
       "home": "VAN",
-      "away_score": null,
-      "home_score": null,
-      "state": "PRE",
+      "away_score": 0,
+      "home_score": 0,
+      "state": "LIVE",
       "period": 1,
       "period_type": "REG",
       "start_time": "2026-03-25T02:00:00Z"
@@ -871,28 +871,7 @@
       "order_id": "0x7e138db13c88aa585e"
     }
   ],
-  "all_games": [
-    {
-      "timestamp": "2026-03-25T02:00:19.247225+00:00",
-      "game_date": "2026-03-24",
-      "game_id": "2025021134",
-      "away": "ANA",
-      "home": "VAN",
-      "mp_away_prob": "0.6330",
-      "mp_home_prob": "0.3670",
-      "goalies_confirmed": "True",
-      "confirmed_count": "2",
-      "pm_away_price": "0.6150",
-      "pm_home_price": "0.3850",
-      "best_ev": "0.0293",
-      "best_ev_team": "ANA",
-      "bet_placed": "NO",
-      "away_book_depth": "134437.95",
-      "home_book_depth": "147650.64",
-      "away_book_levels": "21",
-      "home_book_levels": "20"
-    }
-  ],
+  "all_games": [],
   "today_games": [
     {
       "timestamp": "2026-03-24T13:02:33.861110+00:00",
