@@ -1,13 +1,13 @@
 {
-  "last_updated": "2026-03-25T23:30:28.507240+00:00",
+  "last_updated": "2026-03-25T23:45:03.190043+00:00",
   "scoreboard": [
     {
       "game_id": 2025021135,
       "away": "BOS",
       "home": "BUF",
-      "away_score": null,
-      "home_score": null,
-      "state": "PRE",
+      "away_score": 0,
+      "home_score": 0,
+      "state": "LIVE",
       "period": 1,
       "period_type": "REG",
       "start_time": "2026-03-25T23:30:00Z"
@@ -16,9 +16,9 @@
       "game_id": 2025021136,
       "away": "NYR",
       "home": "TOR",
-      "away_score": null,
-      "home_score": null,
-      "state": "PRE",
+      "away_score": 0,
+      "home_score": 0,
+      "state": "LIVE",
       "period": 1,
       "period_type": "REG",
       "start_time": "2026-03-25T23:30:00Z"
@@ -728,48 +728,7 @@
       "order_id": "0x7e138db13c88aa585e"
     }
   ],
-  "all_games": [
-    {
-      "timestamp": "2026-03-25T23:30:28.127202+00:00",
-      "game_date": "2026-03-25",
-      "game_id": "2025021135",
-      "away": "BOS",
-      "home": "BUF",
-      "mp_away_prob": "0.3540",
-      "mp_home_prob": "0.6460",
-      "goalies_confirmed": "True",
-      "confirmed_count": "2",
-      "pm_away_price": "0.3450",
-      "pm_home_price": "0.6550",
-      "best_ev": "0.0261",
-      "best_ev_team": "BOS",
-      "bet_placed": "NO",
-      "away_book_depth": "111572.93",
-      "home_book_depth": "89815.62",
-      "away_book_levels": "28",
-      "home_book_levels": "21"
-    },
-    {
-      "timestamp": "2026-03-25T23:30:28.449805+00:00",
-      "game_date": "2026-03-25",
-      "game_id": "2025021136",
-      "away": "NYR",
-      "home": "TOR",
-      "mp_away_prob": "0.5500",
-      "mp_home_prob": "0.4500",
-      "goalies_confirmed": "True",
-      "confirmed_count": "2",
-      "pm_away_price": "0.5550",
-      "pm_home_price": "0.4450",
-      "best_ev": "0.0112",
-      "best_ev_team": "TOR",
-      "bet_placed": "NO",
-      "away_book_depth": "119828.01",
-      "home_book_depth": "109834.93",
-      "away_book_levels": "23",
-      "home_book_levels": "24"
-    }
-  ],
+  "all_games": [],
   "today_games": [
     {
       "timestamp": "2026-03-25T13:00:33.398645+00:00",
