@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-25T14:45:28.272583+00:00",
+  "last_updated": "2026-03-25T15:00:28.625045+00:00",
   "scoreboard": [
     {
       "game_id": 2025021135,
@@ -730,7 +730,7 @@
   ],
   "all_games": [
     {
-      "timestamp": "2026-03-25T14:45:27.921398+00:00",
+      "timestamp": "2026-03-25T15:00:28.208277+00:00",
       "game_date": "2026-03-25",
       "game_id": "2025021135",
       "away": "BOS",
@@ -744,13 +744,13 @@
       "best_ev": "0.1101",
       "best_ev_team": "BOS",
       "bet_placed": "NO",
-      "away_book_depth": "9980.1",
+      "away_book_depth": "10200.2",
       "home_book_depth": "43084.6",
-      "away_book_levels": "25",
-      "home_book_levels": "18"
+      "away_book_levels": "23",
+      "home_book_levels": "19"
     },
     {
-      "timestamp": "2026-03-25T14:45:28.226870+00:00",
+      "timestamp": "2026-03-25T15:00:28.555015+00:00",
       "game_date": "2026-03-25",
       "game_id": "2025021136",
       "away": "NYR",
@@ -759,15 +759,15 @@
       "mp_home_prob": "0.4850",
       "goalies_confirmed": "False",
       "confirmed_count": "0",
-      "pm_away_price": "0.5350",
-      "pm_home_price": "0.4650",
-      "best_ev": "0.0430",
+      "pm_away_price": "0.5450",
+      "pm_home_price": "0.4550",
+      "best_ev": "0.0659",
       "best_ev_team": "TOR",
       "bet_placed": "NO",
-      "away_book_depth": "9449.97",
-      "home_book_depth": "10127.9",
+      "away_book_depth": "9464.36",
+      "home_book_depth": "9896.58",
       "away_book_levels": "22",
-      "home_book_levels": "29"
+      "home_book_levels": "31"
     }
   ],
   "today_games": [
@@ -1090,13 +1090,53 @@
       "away_score": "10127.9",
       "home_score": "22",
       "result_updated": "29"
+    },
+    {
+      "timestamp": "2026-03-25T15:00:28.208277+00:00",
+      "game_date": "2026-03-25",
+      "game_id": "2025021135",
+      "away": "BOS",
+      "home": "BUF",
+      "mp_away_prob": "0.3830",
+      "mp_home_prob": "0.6170",
+      "goalies_confirmed": "False",
+      "confirmed_count": "1",
+      "pm_away_price": "0.3450",
+      "pm_home_price": "0.6550",
+      "best_ev": "0.1101",
+      "best_ev_team": "BOS",
+      "bet_placed": "NO",
+      "winner": "10200.2",
+      "away_score": "43084.6",
+      "home_score": "23",
+      "result_updated": "19"
+    },
+    {
+      "timestamp": "2026-03-25T15:00:28.555015+00:00",
+      "game_date": "2026-03-25",
+      "game_id": "2025021136",
+      "away": "NYR",
+      "home": "TOR",
+      "mp_away_prob": "0.5150",
+      "mp_home_prob": "0.4850",
+      "goalies_confirmed": "False",
+      "confirmed_count": "0",
+      "pm_away_price": "0.5450",
+      "pm_home_price": "0.4550",
+      "best_ev": "0.0659",
+      "best_ev_team": "TOR",
+      "bet_placed": "NO",
+      "winner": "9464.36",
+      "away_score": "9896.58",
+      "home_score": "22",
+      "result_updated": "31"
     }
   ],
   "stats": {
     "total_bets_today": 0,
     "total_bets_all_time": 75,
-    "total_games_scanned_today": 16,
-    "total_games_scanned_all": 7983,
-    "runs_today": 9
+    "total_games_scanned_today": 18,
+    "total_games_scanned_all": 7985,
+    "runs_today": 10
   }
 }
