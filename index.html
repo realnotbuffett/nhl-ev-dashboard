@@ -306,13 +306,13 @@ function render() {
       h += '<div class="score-card ' + (isLive ? 'is-live' : '') + ' ' + (hasBet ? 'has-bet-card' : '') + '">';
       h += '<div class="score-state ' + stateClass + '">' + stateLabel + '</div>';
       h += '<div class="score-teams">';
-      h += '<div class="score-team-row"><span class="score-team-name ' + (awayWin ? 'winner' : '') + '">' + g.away + '</span>';
+      h += '<div class="score-team-row"><span class="score-team-name ' + (awayWin ? 'winner' : '') + '">' + g.away + (betTeamsToday[g.away] ? ' <span style="color:#22c55e;font-size:0.7em;font-weight:600">- bet</span>' : '') + '</span>';
       if (isUpcoming) {
         h += '</div>';
       } else {
         h += '<span class="score-team-score ' + (awayWin ? 'winner' : '') + '">' + (g.away_score !== null ? g.away_score : '-') + '</span></div>';
       }
-      h += '<div class="score-team-row"><span class="score-team-name ' + (homeWin ? 'winner' : '') + '">' + g.home + '</span>';
+      h += '<div class="score-team-row"><span class="score-team-name ' + (homeWin ? 'winner' : '') + '">' + g.home + (betTeamsToday[g.home] ? ' <span style="color:#22c55e;font-size:0.7em;font-weight:600">- bet</span>' : '') + '</span>';
       if (isUpcoming) {
         h += '<span class="score-start">' + formatStartTime(g.start_time) + '</span></div>';
       } else {
