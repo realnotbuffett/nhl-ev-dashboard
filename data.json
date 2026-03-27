@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-27T01:30:28.615240+00:00",
+  "last_updated": "2026-03-27T01:45:19.230620+00:00",
   "scoreboard": [
     {
       "game_id": 2025021137,
@@ -7,7 +7,7 @@
       "home": "MTL",
       "away_score": 1,
       "home_score": 2,
-      "state": "CRIT",
+      "state": "FINAL",
       "period": 3,
       "period_type": "REG",
       "start_time": "2026-03-26T23:00:00Z"
@@ -19,8 +19,8 @@
       "away_score": 3,
       "home_score": 3,
       "state": "CRIT",
-      "period": 3,
-      "period_type": "REG",
+      "period": 4,
+      "period_type": "OT",
       "start_time": "2026-03-26T23:00:00Z"
     },
     {
@@ -30,8 +30,8 @@
       "away_score": 3,
       "home_score": 3,
       "state": "CRIT",
-      "period": 3,
-      "period_type": "REG",
+      "period": 4,
+      "period_type": "OT",
       "start_time": "2026-03-26T23:00:00Z"
     },
     {
@@ -39,8 +39,8 @@
       "away": "MIN",
       "home": "FLA",
       "away_score": 2,
-      "home_score": 1,
-      "state": "LIVE",
+      "home_score": 2,
+      "state": "CRIT",
       "period": 3,
       "period_type": "REG",
       "start_time": "2026-03-26T23:00:00Z"
@@ -62,7 +62,7 @@
       "home": "PHI",
       "away_score": 1,
       "home_score": 5,
-      "state": "LIVE",
+      "state": "FINAL",
       "period": 3,
       "period_type": "REG",
       "start_time": "2026-03-26T23:00:00Z"
@@ -72,7 +72,7 @@
       "away": "SJS",
       "home": "STL",
       "away_score": 0,
-      "home_score": 0,
+      "home_score": 1,
       "state": "LIVE",
       "period": 2,
       "period_type": "REG",
@@ -105,7 +105,7 @@
       "away": "WSH",
       "home": "UTA",
       "away_score": 1,
-      "home_score": 0,
+      "home_score": 2,
       "state": "LIVE",
       "period": 1,
       "period_type": "REG",
@@ -126,9 +126,9 @@
       "game_id": 2025021148,
       "away": "EDM",
       "home": "VGK",
-      "away_score": null,
-      "home_score": null,
-      "state": "PRE",
+      "away_score": 0,
+      "home_score": 0,
+      "state": "LIVE",
       "period": 1,
       "period_type": "REG",
       "start_time": "2026-03-27T01:30:00Z"
@@ -851,44 +851,24 @@
   ],
   "all_games": [
     {
-      "timestamp": "2026-03-27T01:30:28.243689+00:00",
-      "game_date": "2026-03-26",
-      "game_id": "2025021148",
-      "away": "EDM",
-      "home": "VGK",
-      "mp_away_prob": "0.4010",
-      "mp_home_prob": "0.5990",
-      "goalies_confirmed": "True",
-      "confirmed_count": "2",
-      "pm_away_price": "0.4350",
-      "pm_home_price": "0.5650",
-      "best_ev": "0.0602",
-      "best_ev_team": "VGK",
-      "bet_placed": "NO",
-      "away_book_depth": "137540.5",
-      "home_book_depth": "129252.02",
-      "away_book_levels": "19",
-      "home_book_levels": "16"
-    },
-    {
-      "timestamp": "2026-03-27T01:30:28.567584+00:00",
+      "timestamp": "2026-03-27T01:45:19.127249+00:00",
       "game_date": "2026-03-26",
       "game_id": "2025021149",
       "away": "LAK",
       "home": "VAN",
-      "mp_away_prob": "0.6110",
-      "mp_home_prob": "0.3890",
-      "goalies_confirmed": "False",
-      "confirmed_count": "1",
+      "mp_away_prob": "0.6270",
+      "mp_home_prob": "0.3730",
+      "goalies_confirmed": "True",
+      "confirmed_count": "2",
       "pm_away_price": "0.6250",
       "pm_home_price": "0.3750",
-      "best_ev": "0.0373",
-      "best_ev_team": "VAN",
+      "best_ev": "0.0032",
+      "best_ev_team": "LAK",
       "bet_placed": "NO",
-      "away_book_depth": "69451.77",
-      "home_book_depth": "88207.09",
-      "away_book_levels": "25",
-      "home_book_levels": "34"
+      "away_book_depth": "82783.17",
+      "home_book_depth": "94532.59",
+      "away_book_levels": "20",
+      "home_book_levels": "30"
     }
   ],
   "today_games": [
@@ -12511,13 +12491,33 @@
       "away_score": "88207.09",
       "home_score": "25",
       "result_updated": "34"
+    },
+    {
+      "timestamp": "2026-03-27T01:45:19.127249+00:00",
+      "game_date": "2026-03-26",
+      "game_id": "2025021149",
+      "away": "LAK",
+      "home": "VAN",
+      "mp_away_prob": "0.6270",
+      "mp_home_prob": "0.3730",
+      "goalies_confirmed": "True",
+      "confirmed_count": "2",
+      "pm_away_price": "0.6250",
+      "pm_home_price": "0.3750",
+      "best_ev": "0.0032",
+      "best_ev_team": "LAK",
+      "bet_placed": "NO",
+      "winner": "82783.17",
+      "away_score": "94532.59",
+      "home_score": "20",
+      "result_updated": "30"
     }
   ],
   "stats": {
     "total_bets_today": 8,
     "total_bets_all_time": 83,
-    "total_games_scanned_today": 581,
-    "total_games_scanned_all": 8634,
-    "runs_today": 52
+    "total_games_scanned_today": 582,
+    "total_games_scanned_all": 8635,
+    "runs_today": 53
   }
 }
