@@ -349,7 +349,7 @@ function render() {
       var aPr = g.pm_away_price ? '$' + parseFloat(g.pm_away_price).toFixed(2) : '--';
       var hPr = g.pm_home_price ? '$' + parseFloat(g.pm_home_price).toFixed(2) : '--';
       h += '<div class="game-row ' + (hasBet ? 'has-bet' : '') + '">';
-      h += '<div class="game-matchup"><div class="game-teams">' + g.away + ' @ ' + g.home + '</div><div class="game-id">ID: ' + (g.game_id || '--') + '</div></div>';
+      h += '<div class="game-matchup"><div class="game-teams">' + g.away + (betTeamsToday[g.away] ? ' <span style="color:#22c55e;font-size:0.7em;font-weight:600">- bet</span>' : '') + ' @ ' + g.home + (betTeamsToday[g.home] ? ' <span style="color:#22c55e;font-size:0.7em;font-weight:600">- bet</span>' : '') + '</div><div class="game-id">ID: ' + (g.game_id || '--') + '</div></div>';
       h += '<div class="game-probs"><div class="prob-label">MoneyPuck</div><div class="prob-values">' + ap + '% / ' + hp + '%</div>';
       h += '<div class="prob-label" style="margin-top:4px">Polymarket</div><div class="prob-values">' + aPr + ' / ' + hPr + '</div></div>';
       h += '<div class="game-ev"><div class="ev-value ' + (isPos ? 'ev-positive' : 'ev-negative') + '">' + (bestEv > 0 ? '+' : '') + evPct + '%</div><div class="ev-team">' + (g.best_ev_team || '') + '</div></div>';
