@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-27T03:15:03.848393+00:00",
+  "last_updated": "2026-03-27T03:30:03.724033+00:00",
   "scoreboard": [
     {
       "game_id": 2025021137,
@@ -73,7 +73,7 @@
       "home": "STL",
       "away_score": 1,
       "home_score": 2,
-      "state": "FINAL",
+      "state": "OFF",
       "period": 4,
       "period_type": "OT",
       "start_time": "2026-03-27T00:00:00Z"
@@ -104,7 +104,7 @@
       "game_id": 2025021146,
       "away": "WSH",
       "home": "UTA",
-      "away_score": 3,
+      "away_score": 5,
       "home_score": 3,
       "state": "LIVE",
       "period": 3,
@@ -117,7 +117,7 @@
       "home": "CGY",
       "away_score": 1,
       "home_score": 2,
-      "state": "LIVE",
+      "state": "CRIT",
       "period": 3,
       "period_type": "REG",
       "start_time": "2026-03-27T01:00:00Z"
@@ -126,8 +126,8 @@
       "game_id": 2025021148,
       "away": "EDM",
       "home": "VGK",
-      "away_score": 2,
-      "home_score": 1,
+      "away_score": 3,
+      "home_score": 2,
       "state": "LIVE",
       "period": 2,
       "period_type": "REG",
