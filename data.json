@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-27T16:15:28.594734+00:00",
+  "last_updated": "2026-03-27T16:30:28.335152+00:00",
   "scoreboard": [
     {
       "game_id": 2025021150,
@@ -730,7 +730,7 @@
   ],
   "all_games": [
     {
-      "timestamp": "2026-03-27T16:15:28.164903+00:00",
+      "timestamp": "2026-03-27T16:30:27.924477+00:00",
       "game_date": "2026-03-27",
       "game_id": "2025021150",
       "away": "DET",
@@ -746,11 +746,11 @@
       "bet_placed": "NO",
       "away_book_depth": "5426.94",
       "home_book_depth": "4844.87",
-      "away_book_levels": "23",
+      "away_book_levels": "24",
       "home_book_levels": "19"
     },
     {
-      "timestamp": "2026-03-27T16:15:28.495658+00:00",
+      "timestamp": "2026-03-27T16:30:28.234404+00:00",
       "game_date": "2026-03-27",
       "game_id": "2025021151",
       "away": "CHI",
@@ -1330,13 +1330,53 @@
       "away_score": "5014.52",
       "home_score": "27",
       "result_updated": "20"
+    },
+    {
+      "timestamp": "2026-03-27T16:30:27.924477+00:00",
+      "game_date": "2026-03-27",
+      "game_id": "2025021150",
+      "away": "DET",
+      "home": "BUF",
+      "mp_away_prob": "0.4150",
+      "mp_home_prob": "0.5850",
+      "goalies_confirmed": "True",
+      "confirmed_count": "2",
+      "pm_away_price": "0.4150",
+      "pm_home_price": "0.5850",
+      "best_ev": "0.0000",
+      "best_ev_team": "DET",
+      "bet_placed": "NO",
+      "winner": "5426.94",
+      "away_score": "4844.87",
+      "home_score": "24",
+      "result_updated": "19"
+    },
+    {
+      "timestamp": "2026-03-27T16:30:28.234404+00:00",
+      "game_date": "2026-03-27",
+      "game_id": "2025021151",
+      "away": "CHI",
+      "home": "NYR",
+      "mp_away_prob": "0.3690",
+      "mp_home_prob": "0.6310",
+      "goalies_confirmed": "False",
+      "confirmed_count": "1",
+      "pm_away_price": "0.3850",
+      "pm_home_price": "0.6150",
+      "best_ev": "0.0260",
+      "best_ev_team": "NYR",
+      "bet_placed": "NO",
+      "winner": "5232.7",
+      "away_score": "5014.52",
+      "home_score": "27",
+      "result_updated": "20"
     }
   ],
   "stats": {
     "total_bets_today": 0,
     "total_bets_all_time": 83,
-    "total_games_scanned_today": 28,
-    "total_games_scanned_all": 8664,
-    "runs_today": 15
+    "total_games_scanned_today": 30,
+    "total_games_scanned_all": 8666,
+    "runs_today": 16
   }
 }
