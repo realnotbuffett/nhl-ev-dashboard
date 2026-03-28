@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-03-28T00:00:03.269529+00:00",
+  "last_updated": "2026-03-28T00:15:03.258792+00:00",
   "scoreboard": [
     {
       "game_id": 2025021150,
       "away": "DET",
       "home": "BUF",
       "away_score": 3,
-      "home_score": 0,
+      "home_score": 1,
       "state": "LIVE",
-      "period": 1,
+      "period": 2,
       "period_type": "REG",
       "start_time": "2026-03-27T23:00:00Z"
     },
@@ -17,9 +17,9 @@
       "away": "CHI",
       "home": "NYR",
       "away_score": 1,
-      "home_score": 1,
+      "home_score": 2,
       "state": "LIVE",
-      "period": 1,
+      "period": 2,
       "period_type": "REG",
       "start_time": "2026-03-27T23:00:00Z"
     }
