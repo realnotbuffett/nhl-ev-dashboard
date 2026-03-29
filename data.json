@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-29T02:15:20.834789+00:00",
+  "last_updated": "2026-03-29T02:30:20.112083+00:00",
   "scoreboard": [
     {
       "game_id": 2025021152,
@@ -117,7 +117,7 @@
       "home": "COL",
       "away_score": 4,
       "home_score": 2,
-      "state": "FINAL",
+      "state": "OFF",
       "period": 3,
       "period_type": "REG",
       "start_time": "2026-03-28T23:00:00Z"
@@ -137,7 +137,7 @@
       "game_id": 2025021164,
       "away": "UTA",
       "home": "LAK",
-      "away_score": 3,
+      "away_score": 4,
       "home_score": 1,
       "state": "LIVE",
       "period": 2,
@@ -149,7 +149,7 @@
       "away": "VAN",
       "home": "CGY",
       "away_score": 0,
-      "home_score": 0,
+      "home_score": 2,
       "state": "LIVE",
       "period": 1,
       "period_type": "REG",
@@ -873,7 +873,7 @@
   ],
   "all_games": [
     {
-      "timestamp": "2026-03-29T02:15:20.699186+00:00",
+      "timestamp": "2026-03-29T02:30:20.014561+00:00",
       "game_date": "2026-03-28",
       "game_id": "2025021166",
       "away": "WSH",
@@ -887,10 +887,10 @@
       "best_ev": "0.0118",
       "best_ev_team": "WSH",
       "bet_placed": "NO",
-      "away_book_depth": "100068.13",
-      "home_book_depth": "86815.1",
-      "away_book_levels": "36",
-      "home_book_levels": "20"
+      "away_book_depth": "131995.31",
+      "home_book_depth": "118961.31",
+      "away_book_levels": "22",
+      "home_book_levels": "19"
     }
   ],
   "today_games": [
@@ -11953,13 +11953,33 @@
       "away_score": "86815.1",
       "home_score": "36",
       "result_updated": "20"
+    },
+    {
+      "timestamp": "2026-03-29T02:30:20.014561+00:00",
+      "game_date": "2026-03-28",
+      "game_id": "2025021166",
+      "away": "WSH",
+      "home": "VGK",
+      "mp_away_prob": "0.4300",
+      "mp_home_prob": "0.5700",
+      "goalies_confirmed": "True",
+      "confirmed_count": "2",
+      "pm_away_price": "0.4250",
+      "pm_home_price": "0.5750",
+      "best_ev": "0.0118",
+      "best_ev_team": "WSH",
+      "bet_placed": "NO",
+      "winner": "131995.31",
+      "away_score": "118961.31",
+      "home_score": "22",
+      "result_updated": "19"
     }
   ],
   "stats": {
     "total_bets_today": 2,
     "total_bets_all_time": 86,
-    "total_games_scanned_today": 553,
-    "total_games_scanned_all": 9271,
-    "runs_today": 56
+    "total_games_scanned_today": 554,
+    "total_games_scanned_all": 9272,
+    "runs_today": 57
   }
 }
